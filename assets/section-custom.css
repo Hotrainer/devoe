@@ -189,3 +189,14 @@ color: #0D131F;
 .d-align-content .d-column:last-of-type {
   align-content:end;
 }
+.d-center-row a {
+  font-family: 'name_sans_textregular';
+font-weight: normal;
+font-size: 1.6rem;
+line-height: 1.1;
+text-align: center;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+color: #E95454;
+}
