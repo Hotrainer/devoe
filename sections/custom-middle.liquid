@@ -2,26 +2,15 @@
 
 <div class="d-grid-row d-grid-2">
   <div class="d-column">
-  <div class="d-top-left-image">
-    <img src="{{section.settings.image | img_url: '730x'}}">
+    <div class="d-custom-text">{{section.settings.text}}</div>
+  <div class="d-middle-left-image">
+    <img src="{{section.settings.image | img_url: '640x'}}">
   </div>
   </div>
   <div class="d-column">
-    <div class="d-h1-wrap">
-    <h1>{{section.settings.heading}}</h1>
-      <span>{{section.settings.subtitle}}</span>
-    </div>
-    <a href="{{section.settings.button_link_1}}" class="btn">{{section.settings.button_label_1}}</a>
-    <div class="d-inner-row">
       <div class="d-top-right-image">
-        <img src="{{section.settings.image_2 | img_url: '588x'}}">
+        <img src="{{section.settings.image_2 | img_url: '625x'}}">
       </div>
-      <div class="d-top-scedule" style="background:url({{section.settings.image_3 | img_url: ''}}); background-repeat:no-repeat;">
-        <h4>{{section.settings.schedule_title}}</h4>
-        <p>{{section.settings.schedule_subtitle}}</p>
-        <p><strong>{{section.settings.schedule}}</strong></p>
-      </div>
-    </div>
   </div>
 </div>
 
