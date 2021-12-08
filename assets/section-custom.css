@@ -110,3 +110,13 @@ text-align: center;
 color: #FFFFFF;
   margin:0 auto;
 }
+.d-custom-text p{
+   font-family: 'master_worksregular';
+font-weight: normal;
+font-size: 4.2rem;
+line-height: 1.07;
+color: #0D131F;
+}
+.d-custom-text p span {
+  color:#E75558;
+}
