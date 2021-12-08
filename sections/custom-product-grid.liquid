@@ -3,23 +3,33 @@
 <div class="d-grid-row d-grid-2">
   <div class="d-column">
     <div class="d-product-item-no-text">
+      <a href="{{section.settings.product.url }}">
       <img src="{{section.settings.product.featured_image}}">
+      </a>
     </div>
   </div>
   <div class="d-column">
     <div class="d-grid-row d-grid-2">
       <div class="d-column">
     <div class="d-product-item-top-text">
+      <p>{{section.settings.product_2.title}}</p>
+      <a href="{{section.settings.product_2.url }}">
+      <img src="{{section.settings.product_2.featured_image}}">
+      </a>
         </div>
       </div>
       <div class="d-column">
     <div class="d-product-item-bottom-text">
+      <a href="{{section.settings.product_3.url }}">
+      <img src="{{section.settings.product_3.featured_image}}">
+      </a>
+      <p>{{section.settings.product_3.title}}</p>
         </div>
       </div>
     </div>
   </div>
 </div>
-  
+<div class="d-center-row"><a href="{{section.settings.button_link_1}}">{{section.settings.button_label_1}}</a></div>
 
 
 {% schema %}
