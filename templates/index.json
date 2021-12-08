@@ -1,5 +1,20 @@
 {
   "sections": {
+    "1638974071eac35815": {
+      "type": "custom-top",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/top_1.jpg",
+        "image_2": "shopify:\/\/shop_images\/top_2.png",
+        "image_3": "shopify:\/\/shop_images\/top_3.png",
+        "heading": "Born  And Baked  Fresh",
+        "subtitle": "in Brooklyn",
+        "schedule_title": "BAKESHOP & CAFE  - 10 DEVOE ST",
+        "schedule_subtitle": "Every Day:",
+        "schedule": "7:00am - 4:00pm",
+        "button_label_1": "OUR menu",
+        "button_link_1": "shopify:\/\/collections"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -171,30 +186,15 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "1638974071eac35815": {
-      "type": "custom-top",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/top_1.jpg",
-        "image_2": "shopify:\/\/shop_images\/top_2.png",
-        "image_3": "shopify:\/\/shop_images\/top_3.png",
-        "heading": "Born  And Baked  Fresh",
-        "subtitle": "in Brooklyn",
-        "schedule_title": "BAKESHOP & CAFE  - 10 DEVOE ST",
-        "schedule_subtitle": "Every Day:",
-        "schedule": "7:00am - 4:00pm",
-        "button_label_1": "OUR menu",
-        "button_link_1": "shopify:\/\/collections"
-      }
     }
   },
   "order": [
+    "1638974071eac35815",
     "image_banner",
     "rich_text",
     "featured_products",
     "collage",
     "video",
-    "multi_column",
-    "1638974071eac35815"
+    "multi_column"
   ]
 }
