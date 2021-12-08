@@ -23,6 +23,13 @@
         "image_2": "shopify:\/\/shop_images\/middle_right.jpg"
       }
     },
+    "16389782666fb30881": {
+      "type": "custom-baker",
+      "settings": {
+        "text": "<p>Our award-winning Pastry Chef <span>Angela Carlucci<\/span>, and her dedicated team, bake from  scratch every day, offering up some of the best pastries you’ll ever taste. \n<\/p>",
+        "image": "shopify:\/\/shop_images\/baker.png"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -199,6 +206,7 @@
   "order": [
     "1638974071eac35815",
     "1638977742290e670f",
+    "16389782666fb30881",
     "image_banner",
     "rich_text",
     "featured_products",
