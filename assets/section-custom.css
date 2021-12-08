@@ -213,3 +213,7 @@ text-align: center;
 
 color: #FFFFFF;
 }
+.newsletter-form__field-wrapper .field__input {
+border: 3px solid #FFFFFF;
+border-radius: 10px;
+}
