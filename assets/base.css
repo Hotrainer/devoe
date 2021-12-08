@@ -1825,8 +1825,8 @@ input[type='checkbox'] {
   }
 
   .header--middle-left {
-    grid-template-areas: 'heading navigation icons';
-    grid-template-columns: auto 1fr auto;
+    grid-template-areas: 'heading navigation icons button';
+    grid-template-columns: auto 1fr auto auto;
     column-gap: 2rem;
   }
 
@@ -2085,7 +2085,9 @@ details[open] > .header__icon--menu .icon-hamburger {
   grid-area: navigation;
   display: none;
 }
-
+.d-header-btn {
+  grid-area: button;
+}
 .header--top-center .header__inline-menu,
 .header--top-center .header__heading-link {
   margin-left: 0;
