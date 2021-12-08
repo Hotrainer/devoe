@@ -151,3 +151,14 @@ color:#E95454;
 .d-mb--120 {
   margin-bottom:-120px;
 }
+.d-product-item-top-text p {
+font-family: 'name_sans_headingblack';
+font-style: italic;
+font-weight: 900;
+font-size: 2.4rem;
+line-height: 1.29;
+text-align: center;
+color: #0D131F;
+  width:237px;
+  margin:0 auto;
+}
