@@ -176,3 +176,7 @@ color: #0D131F;
 .d-product-item-no-text img {
  width:100%; 
 }
+.d-center-row {
+ text-align:center;
+  margin:100px auto;
+}
