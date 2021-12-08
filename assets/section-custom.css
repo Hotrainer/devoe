@@ -59,4 +59,7 @@ line-height: 18px;
 text-transform: uppercase;
 color: #FFFFFF;
   text-decoration:none;
+  background: #E95454;
+border-radius: 10px;
+  padding:1.4rem 3.6rem;
 }
