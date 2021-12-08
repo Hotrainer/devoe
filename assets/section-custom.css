@@ -130,3 +130,15 @@ color: #0D131F;
 .d-top-right-image {
   margin: 0 0 0 40px;
 }
+.d-big-text p {
+font-family: 'name_sans_headingblack';
+font-style: italic;
+font-weight: 900;
+font-size: 4rem;
+line-height: 1.5;
+text-align: center;
+color: #0D131F;
+  max-width:950px;
+  width:100%;
+  margin:40px auto;
+}
