@@ -34,8 +34,8 @@
       "type": "custom-product-grid",
       "settings": {
         "product": "oatmeal-raisin-cookies",
-        "product_2": "brooklyn brookie bars",
-        "product_3": "fig coconut  pecan bars",
+        "product_2": "brooklyn-brookie-bars",
+        "product_3": "fig-coconut-pecan-bars",
         "button_label_1": "Shop All",
         "button_link_1": "shopify:\/\/collections"
       }
