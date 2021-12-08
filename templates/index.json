@@ -33,11 +33,9 @@
     "1638978613f81c8c50": {
       "type": "custom-product-grid",
       "settings": {
-        "image": "shopify:\/\/shop_images\/product_1.png",
-        "image_2": "shopify:\/\/shop_images\/product_2.png",
-        "image_3": "shopify:\/\/shop_images\/product_3.png",
-        "product_2": "Brooklyn Brookie Bars",
-        "product_3": "Fig Coconut  Pecan Bars",
+        "product": "oatmeal-raisin-cookies",
+        "product_2": "brooklyn brookie bars",
+        "product_3": "fig coconut  pecan bars",
         "button_label_1": "Shop All",
         "button_link_1": "shopify:\/\/collections"
       }
