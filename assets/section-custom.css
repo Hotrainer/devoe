@@ -183,3 +183,6 @@ color: #0D131F;
 .d-align-content {
  height:100%; 
 }
+.d-align-content .d-column:last-of-type {
+  aling-content:end;
+}
