@@ -2226,11 +2226,10 @@ details-disclosure > details {
   word-break: break-word;
 }
  .footer-block__heading { 
-  font-family: Name Sans Text;
-font-style: normal;
+  font-family: 'name_sans_textregular';
 font-weight: normal;
-font-size: 16px;
-line-height: 18px;
+font-size: 1.6rem;
+line-height: 1.1;
 
 color: rgba(255, 255, 255, 0.6);
  }
