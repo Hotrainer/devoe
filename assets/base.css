@@ -2190,3 +2190,8 @@ details-disclosure > details {
   color: rgb(var(--color-foreground));
   word-break: break-word;
 }
+.footer-block__heading:before {
+  content:"url({{'mark.svg' | img_url: ''}})";
+  height:15px;
+  width:15px;
+}
