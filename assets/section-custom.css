@@ -61,6 +61,9 @@ color: #0D131F;
 line-height: 1.5;
 color: #000000;
 transform: rotate(-8deg);
+      margin-left: 280px;
+    margin-top: -90px;
+    display: block;
 }
 .btn {
   font-family: 'name_sans_textregular';
