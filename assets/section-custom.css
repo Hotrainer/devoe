@@ -8,7 +8,18 @@
          url('name_sans_heading-black-webfont.svg#name_sans_headingblack') format('svg');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'master_worksregular';
+    src: url('master-works-webfont.eot');
+    src: url('master-works-webfont.eot?#iefix') format('embedded-opentype'),
+         url('master-works-webfont.woff2') format('woff2'),
+         url('master-works-webfont.woff') format('woff'),
+         url('master-works-webfont.ttf') format('truetype'),
+         url('master-works-webfont.svg#master_worksregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 .d-container {
  max-width:1440px;
@@ -24,4 +35,7 @@
 }
 .d-h1-wrap h1 {
 font-family: 'name_sans_headingblack';
+}
+.d-h1-wrap span {
+  font-family: 'master_worksregular';
 }
