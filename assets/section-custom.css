@@ -53,6 +53,7 @@ font-family: 'name_sans_headingblack';
 font-size: 9rem;
 line-height: 1;
 color: #0D131F;
+  margin:0;
 }
 .d-h1-wrap span {
   font-family: 'master_worksregular';
