@@ -169,3 +169,9 @@ color: #0D131F;
 .d-product-item-no-text {
  padding-left:24%; 
 }
+.d-product-item-no-text a {
+ display:block; 
+}
+.d-product-item-no-text img {
+ width:100%; 
+}
