@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'name_sans_headingblack';
+    src: url('name_sans_heading-black-webfont.eot');
+    src: url('name_sans_heading-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('name_sans_heading-black-webfont.woff2') format('woff2'),
+         url('name_sans_heading-black-webfont.woff') format('woff'),
+         url('name_sans_heading-black-webfont.ttf') format('truetype'),
+         url('name_sans_heading-black-webfont.svg#name_sans_headingblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .d-container {
  max-width:1440px;
   width:100%;
@@ -9,4 +21,7 @@
 }
 .d-grid-2 {
  grid-template-columns:1fr 1fr; 
+}
+.d-h1-wrap h1 {
+font-family: 'name_sans_headingblack';
 }
