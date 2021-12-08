@@ -1,3 +1,38 @@
+@font-face {
+    font-family: 'name_sans_headingblack';
+    src: url('name_sans_heading-black-webfont.eot');
+    src: url('name_sans_heading-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('name_sans_heading-black-webfont.woff2') format('woff2'),
+         url('name_sans_heading-black-webfont.woff') format('woff'),
+         url('name_sans_heading-black-webfont.ttf') format('truetype'),
+         url('name_sans_heading-black-webfont.svg#name_sans_headingblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'master_worksregular';
+    src: url('master-works-webfont.eot');
+    src: url('master-works-webfont.eot?#iefix') format('embedded-opentype'),
+         url('master-works-webfont.woff2') format('woff2'),
+         url('master-works-webfont.woff') format('woff'),
+         url('master-works-webfont.ttf') format('truetype'),
+         url('master-works-webfont.svg#master_worksregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'name_sans_textregular';
+    src: url('name_sans_text-regular-webfont.eot');
+    src: url('name_sans_text-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('name_sans_text-regular-webfont.woff2') format('woff2'),
+         url('name_sans_text-regular-webfont.woff') format('woff'),
+         url('name_sans_text-regular-webfont.ttf') format('truetype'),
+         url('name_sans_text-regular-webfont.svg#name_sans_textregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 /* Color custom properties */
 
 :root,
@@ -2190,9 +2225,19 @@ details-disclosure > details {
   color: rgb(var(--color-foreground));
   word-break: break-word;
 }
+ .footer-block__heading { 
+  font-family: Name Sans Text;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+
+color: rgba(255, 255, 255, 0.6);
+ }
 .footer-block__heading:before {
   content:url(https://cdn.shopify.com/s/files/1/0553/1480/9007/t/4/assets/mark.svg?v=1638992005);
   height:15px;
   width:15px;
   margin-right:10px;
 }
+  
