@@ -2191,7 +2191,7 @@ details-disclosure > details {
   word-break: break-word;
 }
 .footer-block__heading:before {
-  content:url({{'mark.svg' | img_url: ''}});
+  content:url(https://cdn.shopify.com/s/files/1/0553/1480/9007/t/4/assets/mark.svg?v=1638992005);
   height:15px;
   width:15px;
 }
