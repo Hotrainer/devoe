@@ -90,3 +90,12 @@ border-radius: 10px;
   transform: translate(-40px, -600px);
   float:right;
 }
+.d-top-scedule h4{
+  font-family: 'name_sans_textregular';
+font-weight: normal;
+font-size: 1.5rem;
+line-height: 1.1;
+text-align: center;
+  text-transform: uppercase;
+color: #FFFFFF;
+}
