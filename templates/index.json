@@ -46,7 +46,7 @@
         "163897983267b644f7-0": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails"
+            "heading": "Don't miss a morsel"
           }
         },
         "163897983267b644f7-1": {
@@ -67,6 +67,7 @@
         "163897983267b644f7-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/newsletter_bg.jpg",
         "color_scheme": "background-1",
         "full_width": true
       }
