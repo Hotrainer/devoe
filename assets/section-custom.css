@@ -151,7 +151,7 @@ color:#E95454;
 .d-mb--120 {
   margin-bottom:-120px;
 }
-.d-product-item-top-text p, .d-product-item-bottom-text p {
+.d-product-item p {
 font-family: 'name_sans_headingblack';
 font-style: italic;
 font-weight: 900;
@@ -161,4 +161,8 @@ text-align: center;
 color: #0D131F;
   width:200px;
   margin:0 auto;
+}
+.d-product-item a {
+ display:block;
+  text-align:center;
 }
