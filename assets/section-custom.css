@@ -53,4 +53,9 @@ font-family: 'name_sans_headingblack';
 }
 .btn {
   font-family: 'name_sans_textregular';
+  font-weight: normal;
+font-size: 1.6rem;
+line-height: 18px;
+text-transform: uppercase;
+color: #FFFFFF;
 }
