@@ -49,12 +49,6 @@
             "heading": "Don't miss a morsel"
           }
         },
-        "163897983267b644f7-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
-          }
-        },
         "163897983267b644f7-2": {
           "type": "email_form",
           "settings": {
@@ -63,7 +57,6 @@
       },
       "block_order": [
         "163897983267b644f7-0",
-        "163897983267b644f7-1",
         "163897983267b644f7-2"
       ],
       "settings": {
