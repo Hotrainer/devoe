@@ -1,16 +1,9 @@
 {{ 'section-custom.css' | asset_url | stylesheet_tag }}
 
-<div class="d-grid-row d-grid-2">
-  <div class="d-column">
-    <div class="d-custom-text">{{section.settings.text}}</div>
-  <div class="d-middle-left-image">
+<div class="d-full-row">
+  <div class="d-big-text">{{section.settings.text}}</div>
+  <div class="d-left-moved">
     <img src="{{section.settings.image | img_url: '640x'}}">
-  </div>
-  </div>
-  <div class="d-column">
-      <div class="d-top-right-image">
-        <img src="{{section.settings.image_2 | img_url: '625x'}}">
-      </div>
   </div>
 </div>
 
