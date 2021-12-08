@@ -238,4 +238,11 @@ opacity: 0.8;
  position:static; 
   background: #FFFFFF;
 border-radius: 10px;
+font-family: 'name_sans_textregular';
+font-weight: normal;
+font-size: 1.6rem;
+line-height: 1;
+text-transform: uppercase;
+padding: 0 60px;
+color: #B71ABA;
 }
