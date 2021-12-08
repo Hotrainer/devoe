@@ -1,12 +1,94 @@
+{{ 'section-custom-top.css' | asset_url | stylesheet_tag }}
+
+<div class="d-grid-row d-grid-2">
+  <div class="d-column">
+  <div class="d-top-left-image">
+    <img src="{{section.settings.image | img_url: '730x'}}">
+  </div>
+  </div>
+  <div class="d-column">
+    <div class="d-h1-wrap">
+    <h1>{{section.settings.heading}}</h1>
+      <span>{{section.settings.subtitle}}</span>
+    </div>
+    <a href="{{section.settings.button_link_1}}" class="btn">{{section.settings.button_label_1}}</a>
+    <div class="d-inner-row">
+      <div class="d-top-right-image">
+        <img src="{{section.settings.image_2 | img_url: '588x'}}">
+      </div>
+      <div class="d-top-scedule" style="background:url({{section.settings.image_3 | img_url: ''}}); background-repeat:no-repeat;">
+        <h4>{{section.settings.schedule_title}}</h4>
+        <p>{{section.settings.schedule_subtitle}}</p>
+        <p><strong>{{section.settings.schedule}}</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Custom Middle",
+  "tag": "section",
+  "class": "spaced-section spaced-section--full-width",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_3",
+      "label": "Image 3"
+    },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Top Title"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Top Subtitle"
+        },
+        {
+          "type": "text",
+          "id": "schedule_title",
+          "label": "Schedule Title"
+        },
+{
+          "type": "text",
+          "id": "schedule_subtitle",
+          "label": "Schedule Subtitle"
+        },
+{
+          "type": "text",
+          "id": "schedule",
+          "label": "Schedule"
+        },
+        {
+          "type": "text",
+          "id": "button_label_1",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "button_link_1",
+          "label": "Button Link"
+        }
+  ],
+  "presets": [
+    {
+      "name": "Custom Middle"
+    }
+  ]
+}
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
 
-{% javascript %}
-{% endjavascript %}
