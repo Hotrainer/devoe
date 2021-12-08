@@ -2252,3 +2252,13 @@ color: rgba(255, 255, 255, 0.6);
   width:15px;
   margin-right:10px;
 }
+  a.header__menu-item {
+font-family: 'name_sans_textregular';
+font-style: normal;
+font-weight: normal;
+font-size: 1.6rem;
+line-height: 1.1;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+  }
