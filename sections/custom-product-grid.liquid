@@ -1,11 +1,17 @@
 {{ 'section-custom.css' | asset_url | stylesheet_tag }}
 
-<div class="d-full-row">
-  <div class="d-big-text">{{section.settings.text}}</div>
-  <div class="d-left-moved">
-    <img src="{{section.settings.image | img_url: '696x'}}">
+<div class="d-grid-row d-grid-2">
+  <div class="d-column">
+    <div class="d-product-item-no-text">
+      <img src="{{section.settings.image | img_url: '730x'}}">
+    </div>
+  </div>
+  <div class="d-column">
+    <div class="d-grid-row d-grid-2">
+    </div>
   </div>
 </div>
+  
 
 
 {% schema %}
@@ -15,30 +21,20 @@
   "class": "spaced-section spaced-section--full-width",
   "settings": [
      {
-      "type": "image_picker",
-      "id": "image",
-      "label": "Image 1"
+      "type": "product",
+      "id": "product",
+      "label": "Product 1"
     },
     {
-      "type": "image_picker",
-      "id": "image_2",
-      "label": "Image 2"
+      "type": "product",
+      "id": "product_2",
+      "label": "Product 2"
     },
     {
-      "type": "image_picker",
-      "id": "image_3",
-      "label": "Image 3"
+      "type": "product",
+      "id": "product_3",
+      "label": "Product 3"
     },
-        {
-          "type": "text",
-          "id": "product_2",
-          "label": "Product 2 Title"
-        },
-        {
-          "type": "text",
-          "id": "product_3",
-          "label": "Product 3 Title"
-        },
         {
           "type": "text",
           "id": "button_label_1",
