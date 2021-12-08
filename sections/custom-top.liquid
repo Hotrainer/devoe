@@ -1,8 +1,16 @@
 {{ 'section-custom-top.css' | asset_url | stylesheet_tag }}
 
 <div class="d-grid-row d-grid-2">
+  <div class="d-column">
   <div class="d-top-left-image">
     <img src="{{section.settings.image | img_url: '730x'}}">
+  </div>
+  </div>
+  <div class="d-column">
+    <div class="d-h1-wrap">
+    <h1>{{section.settings.heading}}</h1>
+      <span>{{section.settings.subtitle}}</span>
+    </div>
   </div>
 </div>
 
