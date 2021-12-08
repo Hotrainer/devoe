@@ -18,7 +18,7 @@
     "1638977742290e670f": {
       "type": "custom-middle",
       "settings": {
-        "text": "<p>Inspired by traditional American baking, welcoming you home with a friendly smile and simple, artisanal hand-crafted pastries. &lt;span&gt;Let our pastries give you a hug.&lt;\/span&gt;<\/p>",
+        "text": "<p>Inspired by traditional American baking, welcoming you home with a friendly smile and simple, artisanal hand-crafted pastries. <span>Let our pastries give you a hug.<\/span><\/p>",
         "image": "shopify:\/\/shop_images\/middle_left.jpg",
         "image_2": "shopify:\/\/shop_images\/middle_right.jpg"
       }
