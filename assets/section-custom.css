@@ -225,7 +225,7 @@ line-height: 1.1;
 color: #FFFFFF;
 opacity: 0.8;
 }
-.field__label {
+.newsletter .field__label {
     color:#fff;
     font-family: 'name_sans_textregular';
 font-weight: normal;
@@ -234,6 +234,8 @@ line-height: 1.1;
 color: #FFFFFF;
 opacity: 0.8;
 }
-.field__button {
+.newsletter .field__button {
  position:static; 
+  background: #FFFFFF;
+border-radius: 10px;
 }
