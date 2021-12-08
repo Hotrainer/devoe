@@ -218,7 +218,7 @@ border: 3px solid #FFFFFF;
 border-radius: 10px;
   box-shadow:none;
   color:#fff;
-    font-family: 'name_sans_textregular'
+    font-family: 'name_sans_textregular';
 font-weight: normal;
 font-size: 1.6rem;
 line-height: 1.1;
@@ -227,7 +227,7 @@ opacity: 0.8;
 }
 .newsletter-form__field-wrapper .field__input::placeholder {
   color:#fff;
-  font-family: 'name_sans_textregular'
+  font-family: 'name_sans_textregular';
 font-weight: normal;
 font-size: 1.6rem;
 line-height: 1.1;
