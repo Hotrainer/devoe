@@ -57,6 +57,10 @@ color: #0D131F;
 }
 .d-h1-wrap span {
   font-family: 'master_worksregular';
+  font-size: 4.2rem;
+line-height: 1.5;
+color: #000000;
+transform: rotate(-8deg);
 }
 .btn {
   font-family: 'name_sans_textregular';
