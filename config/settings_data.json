@@ -1,7 +1,7 @@
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
-    "colors_accent_1": "#121212",
+    "colors_accent_1": "#3d233d",
     "colors_accent_2": "#334FB4",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
@@ -65,7 +65,7 @@
           "5e8de111-2f7d-4fdf-9245-25f3981dd893"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "accent-1",
           "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": false,
