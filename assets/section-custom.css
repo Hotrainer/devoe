@@ -21,6 +21,18 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'name_sans_textregular';
+    src: url('name_sans_text-regular-webfont.eot');
+    src: url('name_sans_text-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('name_sans_text-regular-webfont.woff2') format('woff2'),
+         url('name_sans_text-regular-webfont.woff') format('woff'),
+         url('name_sans_text-regular-webfont.ttf') format('truetype'),
+         url('name_sans_text-regular-webfont.svg#name_sans_textregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .d-container {
  max-width:1440px;
   width:100%;
@@ -38,4 +50,7 @@ font-family: 'name_sans_headingblack';
 }
 .d-h1-wrap span {
   font-family: 'master_worksregular';
+}
+.btn {
+  font-family: 'name_sans_textregular';
 }
