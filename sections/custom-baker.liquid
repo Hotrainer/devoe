@@ -1,12 +1,44 @@
+{{ 'section-custom.css' | asset_url | stylesheet_tag }}
+
+<div class="d-grid-row d-grid-2">
+  <div class="d-column">
+    <div class="d-custom-text">{{section.settings.text}}</div>
+  <div class="d-middle-left-image">
+    <img src="{{section.settings.image | img_url: '640x'}}">
+  </div>
+  </div>
+  <div class="d-column">
+      <div class="d-top-right-image">
+        <img src="{{section.settings.image_2 | img_url: '625x'}}">
+      </div>
+  </div>
+</div>
+
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Custom Baker",
+  "tag": "section",
+  "class": "spaced-section spaced-section--full-width",
+  "settings": [
+{
+          "type": "textarea",
+          "id": "text",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "label": "Middle Text"
+        },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image 1"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Baker"
+    }
+  ]
+}
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
 
-{% javascript %}
-{% endjavascript %}
