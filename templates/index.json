@@ -30,6 +30,18 @@
         "image": "shopify:\/\/shop_images\/baker.png"
       }
     },
+    "1638978613f81c8c50": {
+      "type": "custom-product-grid",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/product_1.png",
+        "image_2": "shopify:\/\/shop_images\/product_2.png",
+        "image_3": "shopify:\/\/shop_images\/product_3.png",
+        "product_2": "Brooklyn Brookie Bars",
+        "product_3": "Fig Coconut  Pecan Bars",
+        "button_label_1": "Shop All",
+        "button_link_1": "shopify:\/\/collections"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -207,6 +219,7 @@
     "1638974071eac35815",
     "1638977742290e670f",
     "16389782666fb30881",
+    "1638978613f81c8c50",
     "image_banner",
     "rich_text",
     "featured_products",
