@@ -101,3 +101,11 @@ color: #FFFFFF;
       width: 160px;
     margin: 110px auto 12px;
 }
+.d-top-scedule p{
+  font-family: 'name_sans_textregular';
+font-weight: normal;
+font-size: 1.5rem;
+line-height: 1.1;
+text-align: center;
+color: #FFFFFF;
+}
