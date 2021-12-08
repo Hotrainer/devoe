@@ -2265,3 +2265,17 @@ text-align: center;
 text-transform: uppercase;
 color: #000000;
   }
+  .d-header-btn {
+   background: #0D131F;
+border-radius: 10px; 
+  }
+  .d-header-btn a {  
+font-family: 'name_sans_textregular';
+font-weight: normal;
+font-size: 1.6rem;
+line-height: 1.1;
+text-transform: uppercase;
+padding:0 40px;
+color: #FFFFFF;
+    display:inline-block;
+  }
