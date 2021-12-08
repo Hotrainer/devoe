@@ -203,3 +203,13 @@ color: #E95454;
 .newsletter   {
  padding:130px 0 30px; 
 }
+.newsletter h2 {
+font-family: 'name_sans_headingblack';
+font-style: italic;
+font-weight: 900;
+font-size: 7.6rem;
+line-height: 1;
+text-align: center;
+
+color: #FFFFFF;
+}
