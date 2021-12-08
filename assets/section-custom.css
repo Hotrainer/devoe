@@ -65,7 +65,7 @@ transform: rotate(-8deg);
     margin-top: -90px;
     display: block;
 }
-.btn {
+.d-btn {
   font-family: 'name_sans_textregular';
   font-weight: normal;
 font-size: 1.6rem;
@@ -76,6 +76,10 @@ color: #FFFFFF;
   background: #E95454;
 border-radius: 10px;
   padding:1.4rem 3.6rem;
+}
+.d-top-btn {
+     margin: 79px 0 0 59px;
+    display: inline-block; 
 }
 .d-top-right-image img{
   transform: translate(-160px, 190px);
