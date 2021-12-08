@@ -220,7 +220,7 @@ body,
   background-color: rgb(var(--color-background));
 }
 body {
- background: url(https://cdn.shopify.com/s/files/1/0553/1480/9007/t/4/assets/body_bg.jpg?v=1638972731) repeat;
+ background: url(https://cdn.shopify.com/s/files/1/0553/1480/9007/t/4/assets/body_whole_bg.png?v=1638972925) repeat;
 }
 .background-secondary {
   background-color: rgba(var(--color-foreground), 0.04);
