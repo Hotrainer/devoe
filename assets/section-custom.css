@@ -121,7 +121,14 @@ color:#E95454;
 .d-mb--120 {
   margin-bottom:-120px;
 }
-.d-product-item:hover {
+.d-product-wrap {
+ border-radius:12px; 
+}
+.d-product-item-bottom-text .d-product-wrap {
+  padding:73px 37px 26px;
+  display:inline-grid;
+}
+.d-product-wrap:hover {
   background:#E95454;
 }
 .d-product-item p {
