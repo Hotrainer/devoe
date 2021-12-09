@@ -185,7 +185,7 @@
 }
 
 .footer__list-social.list-social:only-child {
-  justify-content: center;
+  justify-content: end;
 }
 
 .footer-block__newsletter {
