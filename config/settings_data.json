@@ -113,10 +113,17 @@
             "settings": {
               "menu_content": "<h3>Seasonal Items<\/h3>\n<p>Gingered Maple Walnut Scone <span>(vegan) <\/span><\/p>\n<p>Pecan Gingerbread Muffin <span>(vegan)<\/span><\/p>\n<p>Pumpkin Spice Scone with cinnamon glaze<\/p>"
             }
+          },
+          "811d3136-3b48-41bf-8416-ddc96e45e2df": {
+            "type": "menu",
+            "settings": {
+              "menu_content": "<h3>Muffins<\/h3>\n<p>Blueberry Yogurt Streusel with a Cinnamon Glaze <\/p>\n<p>Whole Wheat Apple Bran\nSpinach Cheddar<\/p>\n<p>Vegan Chai Latte<\/p>\n<p>Banana Chocolate Walnut<\/p>\n<p>Gluten Free Vegan Pumpkin Cranberry<\/p>"
+            }
           }
         },
         "block_order": [
-          "352173b8-a69e-4a42-a833-6a5c2b600cab"
+          "352173b8-a69e-4a42-a833-6a5c2b600cab",
+          "811d3136-3b48-41bf-8416-ddc96e45e2df"
         ],
         "settings": {
         }
