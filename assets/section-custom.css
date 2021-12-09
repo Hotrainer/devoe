@@ -14,6 +14,7 @@
 .d-grid-top.d-grid-2 {
   grid-auto-columns: minmax(0, 1fr);
 grid-auto-flow: column;
+  grid-template-columns:inherit; 
 }
 .d-h1-wrap {
  margin-left:59px; 
