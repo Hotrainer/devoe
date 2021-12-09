@@ -442,11 +442,18 @@ text-align: center;
   }
 }
 
-.footer-block__details-content .list-menu__item--link,
-.copyright__content a {
-  color: rgba(var(--color-foreground), 0.75);
-}
+.footer-block__details-content .list-menu__item--link {
+ font-family: 'name_sans_textregular';
+font-weight: normal;
+font-size: 1.6rem;
+line-height: 2.1;
+text-transform: uppercase;
 
+color: rgba(255, 255, 255, 0.6);
+}
+.copyright__content a  {
+  color: rgba(255, 255, 255, 0.6);
+}
 .footer-block__details-content .list-menu__item--active {
   transition: text-decoration-thickness var(--duration-short) ease;
   color: rgb(var(--color-foreground));
