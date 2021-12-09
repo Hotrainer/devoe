@@ -128,6 +128,12 @@
               "menu_content": "<h3>loaves<\/h3>\n<p>Banana Bread <\/p>\n<p>Iced Lemon Loaf<\/p>"
             }
           },
+          "5af76c26-4445-46ea-9fc5-a63868bc653b": {
+            "type": "heading_newsletter",
+            "settings": {
+              "heading_newsletter": "Don't miss a morsel"
+            }
+          },
           "0e9ba235-b870-4df0-8122-0464e755cd77": {
             "type": "email_form",
             "settings": {
@@ -143,6 +149,7 @@
           "dd0ca461-156a-4fec-9c3d-11108b7c8df5",
           "cef17f83-0e3c-42fd-9f59-b29bd82ff719",
           "0097e113-77d8-4308-b804-905e3f56279f",
+          "5af76c26-4445-46ea-9fc5-a63868bc653b",
           "0e9ba235-b870-4df0-8122-0464e755cd77"
         ],
         "settings": {
