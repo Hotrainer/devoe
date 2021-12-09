@@ -127,8 +127,8 @@ color:#E95454;
 .d-product-item {
  display:grid;
   justify-content:center;
-  transition: 0.3s;
-  background-color:transparent;
+  background-color:rgba(255,255,255,0);
+  transition: background-color 1000ms linear;
 }
 .d-product-item-bottom-text .d-product-wrap {
   padding:73px 37px 26px;
