@@ -115,6 +115,12 @@
             "settings": {
               "menu_content": "<h3>cookies<\/h3>\n<p>Salted Chocolate Chip <\/p>\n<p>Oatmeal Raisin<\/p>\n<p>Honey Peanut Butter<\/p>"
             }
+          },
+          "cef17f83-0e3c-42fd-9f59-b29bd82ff719": {
+            "type": "menu",
+            "settings": {
+              "menu_content": "<h3>bars<\/h3>\n<p>Vegan Fruit and Nut Granola Bar<\/p> \n<p>Fig Coconut Pecan<\/p>\n<p>Brooklyn Brookie <\/p>"
+            }
           }
         },
         "block_order": [
@@ -123,7 +129,8 @@
           "bb5a83a7-6645-4d8a-a087-7791c5d876c7",
           "28da9742-ecf2-4157-ba8a-7a7cf3ff617d",
           "5677acbd-192f-404c-81c8-42733dfab2ed",
-          "dd0ca461-156a-4fec-9c3d-11108b7c8df5"
+          "dd0ca461-156a-4fec-9c3d-11108b7c8df5",
+          "cef17f83-0e3c-42fd-9f59-b29bd82ff719"
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/menu_bg.jpg",
