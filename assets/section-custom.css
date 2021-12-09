@@ -132,6 +132,10 @@ color:#E95454;
   padding:73px 37px 26px;
   display:inline-grid;
 }
+.d-product-item-top-text .d-product-wrap {
+  padding:26px 37px 73px;
+  display:inline-grid;
+}
 .d-product-wrap:hover {
   background:#E95454;
 }
