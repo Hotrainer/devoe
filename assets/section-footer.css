@@ -47,6 +47,10 @@
   .footer__content-top .grid__item {
     padding-left: 3rem;
   }
+  
+ .footer__content-top .grid--4-col-tablet .grid__item {
+    width: 100%; 
+}
 }
 
 .footer__content-bottom {
