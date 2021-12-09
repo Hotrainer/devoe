@@ -71,7 +71,8 @@
           "show_social": false,
           "enable_country_selector": false,
           "enable_language_selector": false,
-          "payment_enable": false
+          "payment_enable": false,
+          "footer_bottom": "<p>Inspired by traditional American baking, welcoming you home with a friendly smile and simple, artisanal hand-crafted pastries. Let our pastries give you a hug.<\/p>"
         }
       }
     },
