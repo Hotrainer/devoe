@@ -161,6 +161,34 @@
           "full_width": true,
           "contact": "<p>Contact us at <a href=\"mailto:info@devoebakeshop.com\" title=\"mailto:info@devoebakeshop.com\">info@devoebakeshop.com<\/a><\/p>"
         }
+      },
+      "image-banner": {
+        "type": "image-banner",
+        "blocks": {
+          "9369e513-d9af-47c0-ae59-870e06501b25": {
+            "type": "heading",
+            "settings": {
+              "heading": "Our Menu"
+            }
+          },
+          "6bcdfebf-d63f-4893-9997-59ef5786ac9c": {
+            "type": "text",
+            "settings": {
+              "text": "Baked fresh from scratch each morning"
+            }
+          }
+        },
+        "block_order": [
+          "9369e513-d9af-47c0-ae59-870e06501b25",
+          "6bcdfebf-d63f-4893-9997-59ef5786ac9c"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/menu_bg.jpg",
+          "desktop_text_box_position": "center",
+          "color_scheme": "background-1",
+          "stack_images_on_mobile": true,
+          "adapt_height_first_image": false
+        }
       }
     },
     "content_for_index": [
