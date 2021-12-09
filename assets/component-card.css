@@ -293,3 +293,12 @@
     transition: background-color var(--duration-long) ease;
   }
 }
+.card-information .card-information__text {
+font-family: 'name_sans_headingblack';
+font-style: italic;
+font-weight: 900;
+font-size: 2.4rem;
+line-height: 1.3;
+text-align: center;
+color: #0D131F;
+}
