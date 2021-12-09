@@ -102,10 +102,8 @@
   <div class="newsletter__wrapper">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
-        {%- when 'heading' -%}
-          <h2 class="h1" {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</h2>
-        {%- when 'paragraph' -%}
-          <div class="newsletter__subheading rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+        {%- when 'heading_newsletter' -%}
+          <h2 class="h1" {{ block.shopify_attributes }}>{{ block.settings.heading_newsletter | escape }}</h2>
         {%- when 'email_form' -%}
           <div {{ block.shopify_attributes }}>
             {% form 'customer', class: 'newsletter-form' %}
@@ -320,6 +318,19 @@
       "type": "email_form",
       "name": "t:sections.newsletter.blocks.email_form.name",
       "limit": 1
+    },
+{
+      "type": "heading_newsletter",
+      "name": "t:sections.newsletter.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading_newsletter",
+          "default": "Subscribe to our emails",
+          "label": "t:sections.newsletter.blocks.heading.settings.heading.label"
+        }
+      ]
     }
 ]
 }
