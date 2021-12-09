@@ -194,3 +194,6 @@
 .banner__heading {
   margin-bottom: 0;
 }
+.banner.height309 {
+  height:31rem;
+}
