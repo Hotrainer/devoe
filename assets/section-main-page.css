@@ -21,3 +21,12 @@
   width: 52.5rem;
   height: 52.5rem;
 }
+.page-menu h3 {
+font-family: 'master_worksregular';
+font-weight: normal;
+font-size: 7.8rem;
+line-height: 1;
+text-transform: lowercase;
+text-align:center;
+color: #E75558;
+}
