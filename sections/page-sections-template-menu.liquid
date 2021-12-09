@@ -15,9 +15,22 @@
 
 {% schema %}
 {
-  "name": "t:sections.main-page.name",
+  "name": "Menu Page",
   "tag": "section",
   "class": "spaced-section",
-   "settings": []
+   "blocks": [
+{
+		"type": "menu",
+      "name": "Menu",
+      "settings": [
+{
+              "type": "richtext",
+              "id": "menu_content",
+              "label": "Menu Content",
+              "default": "<p>Menu Content</p>"
+            }
+]
+}
+]
 }
 {% endschema %}
