@@ -451,6 +451,10 @@ text-transform: uppercase;
 
 color: rgba(255, 255, 255, 0.6);
 }
+.footer-block__details-content .list-menu__item--link.list-menu__item--active {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration:none;
+}
 .copyright__content a  {
   color: rgba(255, 255, 255, 0.6);
 }
