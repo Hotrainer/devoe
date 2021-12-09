@@ -40,6 +40,8 @@
     margin-left: -3rem;
     row-gap: 6rem;
     margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
   }
 
   .footer__content-top .grid__item {
