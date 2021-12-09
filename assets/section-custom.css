@@ -123,12 +123,13 @@ color:#E95454;
 }
 .d-product-wrap {
  border-radius:12px; 
+    background-color:rgba(255,255,255,0);
+  transition: background-color 1000ms linear;
 }
 .d-product-item {
  display:grid;
   justify-content:center;
-  background-color:rgba(255,255,255,0);
-  transition: background-color 1000ms linear;
+
 }
 .d-product-item-bottom-text .d-product-wrap {
   padding:73px 37px 26px;
