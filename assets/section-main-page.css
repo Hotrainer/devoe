@@ -41,3 +41,7 @@ text-align: center;
 
 color: #0D131F;
 }
+.page-menu p span {
+    font-family: 'master_worksregular';
+  font-weight: 400;
+}
