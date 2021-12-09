@@ -121,6 +121,12 @@
             "settings": {
               "menu_content": "<h3>bars<\/h3>\n<p>Vegan Fruit and Nut Granola Bar<\/p> \n<p>Fig Coconut Pecan<\/p>\n<p>Brooklyn Brookie <\/p>"
             }
+          },
+          "0097e113-77d8-4308-b804-905e3f56279f": {
+            "type": "menu",
+            "settings": {
+              "menu_content": "<h3>loaves<\/h3>\n<p>Banana Bread <\/p>\n<p>Iced Lemon Loaf<\/p>"
+            }
           }
         },
         "block_order": [
@@ -130,7 +136,8 @@
           "28da9742-ecf2-4157-ba8a-7a7cf3ff617d",
           "5677acbd-192f-404c-81c8-42733dfab2ed",
           "dd0ca461-156a-4fec-9c3d-11108b7c8df5",
-          "cef17f83-0e3c-42fd-9f59-b29bd82ff719"
+          "cef17f83-0e3c-42fd-9f59-b29bd82ff719",
+          "0097e113-77d8-4308-b804-905e3f56279f"
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/menu_bg.jpg",
