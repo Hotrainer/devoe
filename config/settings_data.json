@@ -91,11 +91,18 @@
             "settings": {
               "text": "Baked fresh from scratch each morning"
             }
+          },
+          "bb5a83a7-6645-4d8a-a087-7791c5d876c7": {
+            "type": "menu",
+            "settings": {
+              "menu_content": "<p>&lt;h3&gt;Seasonal Items&lt;\/h3&gt;<\/p><p>&lt;p&gt;Gingered Maple Walnut Scone (vegan)&lt;\/p&gt;<\/p><p> &lt;p&gt;Pecan Gingerbread Muffin (vegan)&lt;\/p&gt;<\/p><p>&lt;p&gt;Pumpkin Spice Scone with cinnamon glaze&lt;\/p&gt;<\/p>"
+            }
           }
         },
         "block_order": [
           "dc8a3c10-ec2c-46b3-a7b2-f03b4d26f34c",
-          "4acb961e-3b73-48bb-8ad9-f27a8fa1e7a3"
+          "4acb961e-3b73-48bb-8ad9-f27a8fa1e7a3",
+          "bb5a83a7-6645-4d8a-a087-7791c5d876c7"
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/menu_bg.jpg",
