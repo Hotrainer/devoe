@@ -159,7 +159,7 @@
       "custom-liquid": {
         "type": "custom-liquid",
         "settings": {
-          "custom_liquid": ""
+          "custom_liquid": "<a href=\"https:\/\/instagram.com\/devoestbakeshop\" target=\"_blank\">@devoestbakeshop <\/a>"
         }
       },
       "newsletter": {
