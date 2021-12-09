@@ -49,3 +49,14 @@ color: #0D131F;
 .d-center {
  text-align:center; 
 }
+.d-page-instagram-link {
+font-family: 'name_sans_headingblack';
+font-style: italic;
+font-weight: 900;
+font-size: 4rem;
+line-height: 1.5;
+text-decoration:none;
+text-align: center;
+
+color: #0D131F;
+}
