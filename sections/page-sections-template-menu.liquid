@@ -90,7 +90,11 @@
   </div>
 </div>
 <div class="page-width page-width--narrow">
- 
+ {%- for block in section.blocks -%}
+  {% if block.type == 'menu' %}
+  {{block.settings.menu_content}}
+  {% endif %}
+  {%- endfor -%}
 </div>
 
 {% schema %}
