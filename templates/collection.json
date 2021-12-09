@@ -1,14 +1,99 @@
 {
   "sections": {
+    "163907515194bacf41": {
+      "type": "image-banner",
+      "blocks": {
+        "163907515106009c98-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop"
+          }
+        },
+        "163907515106009c98-1": {
+          "type": "text",
+          "settings": {
+            "text": "Let our pastries give you a hug"
+          }
+        }
+      },
+      "block_order": [
+        "163907515106009c98-0",
+        "163907515106009c98-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shop_bg.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false,
+        "height309": true
+      }
+    },
     "banner": {
-      "type": "main-collection-banner"
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false
+      }
     },
     "product-grid": {
-      "type": "main-collection-product-grid"
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "1639075155fd8f308a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
+    "16390751855edf209d": {
+      "type": "newsletter",
+      "blocks": {
+        "1639075185893f4bdb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        },
+        "1639075185893f4bdb-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "1639075185893f4bdb-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1639075185893f4bdb-0",
+        "1639075185893f4bdb-1",
+        "1639075185893f4bdb-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
+    "163907515194bacf41",
     "banner",
-    "product-grid"
+    "product-grid",
+    "1639075155fd8f308a",
+    "16390751855edf209d"
   ]
 }
