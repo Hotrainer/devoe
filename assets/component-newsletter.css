@@ -53,3 +53,50 @@
 .newsletter-form__button .icon {
   width: 1.5rem;
 }
+.newsletter   {
+ padding:130px 0 30px; 
+}
+.newsletter h2 {
+font-family: 'name_sans_headingblack';
+font-style: italic;
+font-weight: 900;
+font-size: 7.6rem;
+line-height: 1;
+text-align: center;
+
+color: #FFFFFF;
+}
+.newsletter-form__field-wrapper .field__input {
+border: 3px solid #FFFFFF;
+border-radius: 10px;
+  box-shadow:none;
+  color:#fff;
+    font-family: 'name_sans_textregular';
+font-weight: normal;
+font-size: 1.6rem;
+line-height: 1.1;
+color: #FFFFFF;
+opacity: 0.8;
+}
+.newsletter .field__label {
+    color:#fff;
+    font-family: 'name_sans_textregular';
+font-weight: normal;
+font-size: 1.6rem;
+line-height: 1.1;
+color: #FFFFFF;
+opacity: 0.8;
+}
+.newsletter .field__button {
+ position:static; 
+  background: #FFFFFF;
+border-radius: 10px;
+font-family: 'name_sans_textregular';
+font-weight: normal;
+font-size: 1.6rem;
+line-height: 1;
+text-transform: uppercase;
+padding: 0 60px;
+color: #B71ABA;
+  margin-left:16px;
+}
