@@ -63,13 +63,7 @@
         "1639075185893f4bdb-0": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails"
-          }
-        },
-        "1639075185893f4bdb-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "heading": "Don't miss a morsel"
           }
         },
         "1639075185893f4bdb-2": {
@@ -80,10 +74,10 @@
       },
       "block_order": [
         "1639075185893f4bdb-0",
-        "1639075185893f4bdb-1",
         "1639075185893f4bdb-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/newsletter_bg.jpg",
         "color_scheme": "background-1",
         "full_width": true
       }
