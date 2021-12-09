@@ -153,7 +153,7 @@ color: #0D131F;
   margin:0 auto;
   transition: 0.3s;
 }
-.d-product-wrap:hover .d-product-item p {
+.d-product-wrap:hover p {
   color: #fff;
 }
 .d-product-item a {
