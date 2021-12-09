@@ -76,6 +76,117 @@
           "payment_enable": false,
           "footer_bottom": "<p>Inspired by traditional American baking, welcoming you home with a friendly smile and simple, artisanal hand-crafted pastries. Let our pastries give you a hug.<\/p>"
         }
+      },
+      "image-banner": {
+        "type": "image-banner",
+        "blocks": {
+          "c3733a07-0541-421e-b6c2-34c8b4fa9843": {
+            "type": "heading",
+            "settings": {
+              "heading": "Our Menu"
+            }
+          },
+          "48506538-c2a2-422d-b78e-ed48ecb70564": {
+            "type": "text",
+            "settings": {
+              "text": "Baked fresh from scratch each morning"
+            }
+          }
+        },
+        "block_order": [
+          "c3733a07-0541-421e-b6c2-34c8b4fa9843",
+          "48506538-c2a2-422d-b78e-ed48ecb70564"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/menu_bg.jpg",
+          "desktop_text_box_position": "center",
+          "color_scheme": "background-1",
+          "stack_images_on_mobile": true,
+          "adapt_height_first_image": false,
+          "height309": true
+        }
+      },
+      "menu-section": {
+        "type": "menu-section",
+        "blocks": {
+          "c5c1616d-97e4-43c7-854a-aecef09b2ed3": {
+            "type": "menu",
+            "settings": {
+              "menu_content": "<h3>Seasonal Items<\/h3>\n<p>Gingered Maple Walnut Scone <span>(vegan) <\/span><\/p>\n<p>Pecan Gingerbread Muffin <span>(vegan)<\/span><\/p>\n<p>Pumpkin Spice Scone with cinnamon glaze<\/p>"
+            }
+          },
+          "126f43bd-aa99-4b1f-b695-c7b3f888d61e": {
+            "type": "menu",
+            "settings": {
+              "menu_content": "<h3>Muffins<\/h3>\n<p>Blueberry Yogurt Streusel with a Cinnamon Glaze <\/p>\n<p>Whole Wheat Apple Bran\nSpinach Cheddar<\/p>\n<p>Vegan Chai Latte<\/p>\n<p>Banana Chocolate Walnut<\/p>\n<p>Gluten Free Vegan Pumpkin Cranberry<\/p>"
+            }
+          },
+          "a4c0aa61-4588-44a3-b5d2-3558751ac10d": {
+            "type": "menu",
+            "settings": {
+              "menu_content": "<h3>Scones<\/h3>\n<p>Blueberry Buttermilk  <\/p>\n<p>Cheddar Scallion<\/p>\n<p>Vegan Chocolate Chip with a Vanilla Glaze<\/p>"
+            }
+          },
+          "5bc97e50-a4e4-48da-94fe-46d0215692fe": {
+            "type": "menu",
+            "settings": {
+              "menu_content": "<h3>Cookies<\/h3>\n<p>Salted Chocolate Chip <\/p>\n<p>Oatmeal Raisin<\/p>\n<p>Honey Peanut Butter<\/p>"
+            }
+          },
+          "d296c621-c9b6-4a21-8142-38ac94ed99c0": {
+            "type": "menu",
+            "settings": {
+              "menu_content": "<h3>Bars<\/h3>\n<p>Vegan Fruit and Nut Granola Bar <\/p>\n<p>Fig Coconut Pecan<\/p>\n<p>Brooklyn Brookie <\/p>"
+            }
+          },
+          "cbf5b655-19e7-4618-b879-c2d9520616cb": {
+            "type": "menu",
+            "settings": {
+              "menu_content": "<h3>Loaves<\/h3>\n<p>Banana Bread <\/p>\n<p>Iced Lemon Loaf<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "c5c1616d-97e4-43c7-854a-aecef09b2ed3",
+          "126f43bd-aa99-4b1f-b695-c7b3f888d61e",
+          "a4c0aa61-4588-44a3-b5d2-3558751ac10d",
+          "5bc97e50-a4e4-48da-94fe-46d0215692fe",
+          "d296c621-c9b6-4a21-8142-38ac94ed99c0",
+          "cbf5b655-19e7-4618-b879-c2d9520616cb"
+        ],
+        "settings": {
+        }
+      },
+      "custom-liquid": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "<div class=\"d-center\"><a href=\"https:\/\/instagram.com\/devoestbakeshop\" target=\"_blank\" class=\"d-page-instagram-link\">@devoestbakeshop <\/a><\/div>\n<h2>Instagram Feed<\/h2>\n<div class=\"d-center\"><p class=\"d-page-contact-link\">Contact us at <a href=\"mailto:\">info@devoebakeshop.com<\/a><\/p><\/div>"
+        }
+      },
+      "newsletter": {
+        "type": "newsletter",
+        "blocks": {
+          "896f56e7-5bab-47e4-a464-f07d5f2590b0": {
+            "type": "heading",
+            "settings": {
+              "heading": "Don't miss a morsel"
+            }
+          },
+          "0acd68ee-159d-4043-beee-050c92c1d8ab": {
+            "type": "email_form",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "896f56e7-5bab-47e4-a464-f07d5f2590b0",
+          "0acd68ee-159d-4043-beee-050c92c1d8ab"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/newsletter_bg.jpg",
+          "color_scheme": "background-1",
+          "full_width": true
+        }
       }
     },
     "content_for_index": [
