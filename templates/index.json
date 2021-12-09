@@ -27,7 +27,8 @@
       "type": "custom-baker",
       "settings": {
         "text": "<p>Our award-winning pastry chef <span>Angela Carlucci<\/span>. Her dedicated team bakes from scratch every morning.\n\n<\/p>",
-        "image": "shopify:\/\/shop_images\/angela.png"
+        "image": "shopify:\/\/shop_images\/angela.png",
+        "image_2": "shopify:\/\/shop_images\/SCONE_MAKING_GIF_01C.gif"
       }
     },
     "1638978613f81c8c50": {
