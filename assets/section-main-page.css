@@ -31,3 +31,13 @@ text-align:center;
 color: #E75558;
   margin-bottom:2.5rem;
 }
+.page-menu p {
+font-family: 'name_sans_headingblack';
+font-style: italic;
+font-weight: 900;
+font-size: 2.4rem;
+line-height: 1.8;
+text-align: center;
+
+color: #0D131F;
+}
