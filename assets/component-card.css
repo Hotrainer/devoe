@@ -302,6 +302,10 @@ line-height: 1.3;
 text-align: center;
 color: #0D131F;
 }
+.card-information .price {
+ display:block;
+  text-align:center;
+}
 .card-information .price-item {
 font-family: 'name_sans_textregular';
 font-style: normal;
