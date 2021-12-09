@@ -121,6 +121,9 @@ color:#E95454;
 .d-mb--120 {
   margin-bottom:-120px;
 }
+.d-product-item:hover {
+  background:#E95454;
+}
 .d-product-item p {
 font-family: 'name_sans_headingblack';
 font-style: italic;
