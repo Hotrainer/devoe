@@ -164,7 +164,25 @@
       },
       "newsletter": {
         "type": "newsletter",
+        "blocks": {
+          "d354104b-c2da-410f-858a-40fe28281b9f": {
+            "type": "heading",
+            "settings": {
+              "heading": "Don't miss a morsel"
+            }
+          },
+          "f69c4db1-51a8-490d-b730-43580cdd8aa7": {
+            "type": "email_form",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "d354104b-c2da-410f-858a-40fe28281b9f",
+          "f69c4db1-51a8-490d-b730-43580cdd8aa7"
+        ],
         "settings": {
+          "image": "shopify:\/\/shop_images\/newsletter_bg.jpg",
           "color_scheme": "background-1",
           "full_width": true
         }
