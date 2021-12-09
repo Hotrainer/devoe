@@ -128,6 +128,7 @@ color:#E95454;
  display:grid;
   justify-content:center;
   transition: 0.3s;
+  background-color:transparent;
 }
 .d-product-item-bottom-text .d-product-wrap {
   padding:73px 37px 26px;
@@ -138,7 +139,7 @@ color:#E95454;
   display:inline-grid;
 }
 .d-product-wrap:hover {
-  background:#E95454;
+  background-color:#E95454;
 }
 .d-product-item p {
 font-family: 'name_sans_headingblack';
@@ -150,6 +151,7 @@ text-align: center;
 color: #0D131F;
   width:200px;
   margin:0 auto;
+  transition: 0.3s;
 }
 .d-product-wrap:hover .d-product-item p {
   color: #fff;
