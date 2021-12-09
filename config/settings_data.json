@@ -39,8 +39,8 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "",
+              "menu": "footer-1"
             }
           },
           "1367acd4-f96d-4bc1-b723-081290d9625c": {
