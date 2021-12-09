@@ -85,10 +85,17 @@
             "settings": {
               "heading": "Our Menu"
             }
+          },
+          "4acb961e-3b73-48bb-8ad9-f27a8fa1e7a3": {
+            "type": "text",
+            "settings": {
+              "text": "Baked fresh from scratch each morning"
+            }
           }
         },
         "block_order": [
-          "dc8a3c10-ec2c-46b3-a7b2-f03b4d26f34c"
+          "dc8a3c10-ec2c-46b3-a7b2-f03b4d26f34c",
+          "4acb961e-3b73-48bb-8ad9-f27a8fa1e7a3"
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/menu_bg.jpg",
