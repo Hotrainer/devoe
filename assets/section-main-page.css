@@ -60,3 +60,17 @@ text-align: center;
 
 color: #0D131F;
 }
+.d-page-contact-link {
+font-family: 'name_sans_headingblack';
+font-style: italic;
+font-weight: 900;
+font-size: 40px;
+line-height: 1.5;
+text-align: center;
+
+color: #0D131F;
+}
+.d-page-contact-link a {
+  color: #E75558;
+  text-decoration:none;
+}
