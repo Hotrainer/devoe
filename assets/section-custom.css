@@ -16,6 +16,13 @@
 grid-auto-flow: column;
   grid-template-columns:inherit; 
 }
+.d-top-left-image {
+ width:100%; 
+}
+.d-top-left-image img{
+ width:100%; 
+  object-fit:cover;
+}
 .d-h1-wrap {
  margin-left:59px; 
   margin-bottom:123px;
