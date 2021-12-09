@@ -11,6 +11,10 @@
 .d-grid-2 {
  grid-template-columns:1fr 1fr; 
 }
+.d-grid-top.d-grid-2 {
+  grid-auto-columns: minmax(0, 1fr);
+grid-auto-flow: column;
+}
 .d-h1-wrap {
  margin-left:59px; 
   margin-bottom:123px;
