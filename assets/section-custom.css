@@ -33,6 +33,7 @@ font-size: 6.2rem;
 line-height: 1.44;
 color: #0D131F;
   margin:0;
+  text-transform:uppercase;
 }
 .d-h1-wrap span {
   font-family: 'master_worksregular';
