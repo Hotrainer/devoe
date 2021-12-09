@@ -76,6 +76,25 @@
           "payment_enable": false,
           "footer_bottom": "<p>Inspired by traditional American baking, welcoming you home with a friendly smile and simple, artisanal hand-crafted pastries. Let our pastries give you a hug.<\/p>"
         }
+      },
+      "page-sections-template-menu": {
+        "type": "page-sections-template-menu",
+        "blocks": {
+          "dc8a3c10-ec2c-46b3-a7b2-f03b4d26f34c": {
+            "type": "heading",
+            "settings": {
+              "heading": "Our Menu"
+            }
+          }
+        },
+        "block_order": [
+          "dc8a3c10-ec2c-46b3-a7b2-f03b4d26f34c"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/menu_bg.jpg",
+          "desktop_text_box_position": "center",
+          "adapt_height_first_image": false
+        }
       }
     },
     "content_for_index": [
