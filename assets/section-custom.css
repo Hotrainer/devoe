@@ -151,6 +151,9 @@ color: #0D131F;
   width:200px;
   margin:0 auto;
 }
+.d-product-wrap:hover .d-product-item p {
+  color: #fff;
+}
 .d-product-item a {
  display:block;
   text-align:center;
