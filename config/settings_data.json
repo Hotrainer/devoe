@@ -53,8 +53,8 @@
           "5e8de111-2f7d-4fdf-9245-25f3981dd893": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "",
+              "menu": "footer-3"
             }
           }
         },
