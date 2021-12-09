@@ -127,6 +127,11 @@
             "settings": {
               "menu_content": "<h3>loaves<\/h3>\n<p>Banana Bread <\/p>\n<p>Iced Lemon Loaf<\/p>"
             }
+          },
+          "0e9ba235-b870-4df0-8122-0464e755cd77": {
+            "type": "email_form",
+            "settings": {
+            }
           }
         },
         "block_order": [
@@ -137,12 +142,16 @@
           "5677acbd-192f-404c-81c8-42733dfab2ed",
           "dd0ca461-156a-4fec-9c3d-11108b7c8df5",
           "cef17f83-0e3c-42fd-9f59-b29bd82ff719",
-          "0097e113-77d8-4308-b804-905e3f56279f"
+          "0097e113-77d8-4308-b804-905e3f56279f",
+          "0e9ba235-b870-4df0-8122-0464e755cd77"
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/menu_bg.jpg",
           "desktop_text_box_position": "center",
-          "adapt_height_first_image": false
+          "adapt_height_first_image": false,
+          "image_newsletter": "shopify:\/\/shop_images\/newsletter_bg.jpg",
+          "color_scheme": "background-1",
+          "full_width": true
         }
       }
     },
