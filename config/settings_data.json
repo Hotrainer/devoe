@@ -158,7 +158,8 @@
           "adapt_height_first_image": false,
           "image_newsletter": "shopify:\/\/shop_images\/newsletter_bg.jpg",
           "color_scheme": "background-1",
-          "full_width": true
+          "full_width": true,
+          "contact": "<p>Contact us at <a href=\"mailto:info@devoebakeshop.com\" title=\"mailto:info@devoebakeshop.com\">info@devoebakeshop.com<\/a><\/p>"
         }
       }
     },
