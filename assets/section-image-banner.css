@@ -197,3 +197,7 @@
 .banner.height309 {
   min-height:31rem;
 }
+.height309 .color-background-1 {
+ background-color:transparent; 
+  color:#fff;
+}
