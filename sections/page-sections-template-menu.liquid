@@ -102,8 +102,6 @@
   <div class="newsletter__wrapper">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
-        {%- when '@app' -%}
-          {% render block %}
         {%- when 'heading' -%}
           <h2 class="h1" {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</h2>
         {%- when 'paragraph' -%}
@@ -317,6 +315,11 @@
           "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
         }
       ]
+    },
+{
+      "type": "email_form",
+      "name": "t:sections.newsletter.blocks.email_form.name",
+      "limit": 1
     }
 ]
 }
