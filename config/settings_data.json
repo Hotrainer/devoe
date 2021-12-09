@@ -97,12 +97,19 @@
             "settings": {
               "menu_content": "<h3>Seasonal Items<\/h3><p>Gingered Maple Walnut Scone (vegan)<\/p> <p>Pecan Gingerbread Muffin (vegan)<\/p><p>Pumpkin Spice Scone with cinnamon glaze<\/p>"
             }
+          },
+          "28da9742-ecf2-4157-ba8a-7a7cf3ff617d": {
+            "type": "menu",
+            "settings": {
+              "menu_content": "<h3>MUFFINS<\/h3>\n<p>Blueberry Yogurt Streusel with a Cinnamon Glaze <\/p>\n<p>Whole Wheat Apple Bran\nSpinach Cheddar<\/p>\n<p>Vegan Chai Latte<\/p>\n<p>Banana Chocolate Walnut<\/p>\n<p>Gluten Free Vegan Pumpkin Cranberry<\/p>"
+            }
           }
         },
         "block_order": [
           "dc8a3c10-ec2c-46b3-a7b2-f03b4d26f34c",
           "4acb961e-3b73-48bb-8ad9-f27a8fa1e7a3",
-          "bb5a83a7-6645-4d8a-a087-7791c5d876c7"
+          "bb5a83a7-6645-4d8a-a087-7791c5d876c7",
+          "28da9742-ecf2-4157-ba8a-7a7cf3ff617d"
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/menu_bg.jpg",
