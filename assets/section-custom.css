@@ -71,6 +71,7 @@ border-radius: 10px;
   position:fixed;
   top:400px;
   right:25px;
+  z-index:100;
 }
 .d-top-scedule h4{
   font-family: 'name_sans_textregular';
