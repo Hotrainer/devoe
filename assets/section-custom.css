@@ -67,8 +67,10 @@ border-radius: 10px;
 .d-top-scedule {
   width:191px;
   height:229px;
-  transform: translate(-40px, -600px);
   float:right;
+  position:fixed;
+  top:400px;
+  right:25px;
 }
 .d-top-scedule h4{
   font-family: 'name_sans_textregular';
