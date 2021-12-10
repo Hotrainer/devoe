@@ -1,7 +1,9 @@
 .product-grid .grid__item {
   padding-bottom: 2rem;
 }
-
+.product-grid.grid {
+ align-items:baseline; 
+}
 .product-grid.negative-margin {
   margin-bottom: -2rem;
 }
