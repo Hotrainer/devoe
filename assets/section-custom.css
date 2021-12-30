@@ -222,4 +222,5 @@ color: #E95454;
   position:absolute;
   top:50%;
   right:-50px;
+  max-width:300px;
 }
