@@ -90,6 +90,13 @@ line-height: 1.92;
 color: #0D131F;
   text-align:left;
 }
+.d-about-text p em {
+    font-family: 'master_worksregular';
+font-weight: normal;
+font-size: 46px;
+line-height: 1.1;
+color: #0D131F;
+}
 .color-transparent .rich-text__blocks {
  max-width:120rem; 
   width:100%
