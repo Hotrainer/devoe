@@ -177,6 +177,7 @@
             "type": "heading",
             "settings": {
               "heading": "ABOUT DEVOE STREET BAKESHOP",
+              "use_custom_heading": true,
               "heading_size": "h1"
             }
           },
