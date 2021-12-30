@@ -1075,6 +1075,6 @@ window.addEventListener("load",function(){
 	//wagtailani_tag("h6");
 	
 	//example of a custom animation set to a list tag...
-  animateCursor([{{'cursor_cutepronto2_frame1.png' | asset_img_url: '' }}, {{'cursor_cutepronto2_frame2.png' | asset_img_url: '' }}]);
+  animateCursor(['https://cdn.shopify.com/s/files/1/0553/1480/9007/t/4/assets/cursor_cutepronto2_frame1.png?v=1640856531', 'https://cdn.shopify.com/s/files/1/0553/1480/9007/t/4/assets/cursor_cutepronto2_frame2.png?v=1640856540']);
 	//example of a custom animation set to the bold tag...
 });
