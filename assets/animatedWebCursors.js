@@ -1075,7 +1075,6 @@ window.addEventListener("load",function(){
 	//wagtailani_tag("h6");
 	
 	//example of a custom animation set to a list tag...
-	animateCursorForElement(['Custom/sparkle/CursorStarSparkle-frame1.png', 'Custom/sparkle/CursorStarSparkle-frame2.png', 'Custom/sparkle/CursorStarSparkle-frame3.png', 'Custom/sparkle/CursorStarSparkle-frame4.png', 'Custom/sparkle/CursorStarSparkle-frame5.png', 'Custom/sparkle/CursorStarSparkle-frame6.png', 'Custom/sparkle/CursorStarSparkle-frame7.png', 'Custom/sparkle/CursorStarSparkle-frame8.png', 'Custom/sparkle/CursorStarSparkle-frame9.png', 'Custom/sparkle/CursorStarSparkle-frame10.png', 'Custom/sparkle/CursorStarSparkle-frame11.png', 'Custom/sparkle/CursorStarSparkle-frame12.png', 'Custom/sparkle/CursorStarSparkle-frame13.png', 'Custom/sparkle/CursorStarSparkle-frame14.png', 'Custom/sparkle/CursorStarSparkle-frame15.png', 'Custom/sparkle/CursorStarSparkle-frame16.png', 'Custom/sparkle/CursorStarSparkle-frame17.png', 'Custom/sparkle/CursorStarSparkle-frame18.png', 'Custom/sparkle/CursorStarSparkle-frame19.png', 'Custom/sparkle/CursorStarSparkle-frame20.png'], "li");
+	animateCursor(['cursor_cutepronto2_frame1.png', 'cursor_cutepronto2_frame2.png']);
 	//example of a custom animation set to the bold tag...
-	animateCursorForElement(['Custom/cupcakecursor/cupcakecursor_frame1.png', 'Custom/cupcakecursor/cupcakecursor_frame2.png', 'Custom/cupcakecursor/cupcakecursor_frame3.png'], "strong");
 });
