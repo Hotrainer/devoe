@@ -14,7 +14,7 @@
 
 //default path to the folder where the cursors are
 //if you change where they are located, be sure to change this...
-var str_pathToImageFolder = "cursorImages/";
+var str_pathToImageFolder = "";
 //
 var int_cursorAnimationInterval;//animation interval id
 var num_cursorAnimationFrame = 0;//the animation frame (counts through arrays)
@@ -23,7 +23,7 @@ var num_animationSpeed = 100;//interval speed
 //---------------ANIMATION ARRAYS---------------//
 
 //3D-Bronze
-var arr_hourgla2ani = ["XPcursors/3D-Bronze/Busy_FRAME01.png", "XPcursors/3D-Bronze/Busy_FRAME02.png", "XPcursors/3D-Bronze/Busy_FRAME03.png", "XPcursors/3D-Bronze/Busy_FRAME04.png", "XPcursors/3D-Bronze/Busy_FRAME05.png", "XPcursors/3D-Bronze/Busy_FRAME06.png", "XPcursors/3D-Bronze/Busy_FRAME07.png", "XPcursors/3D-Bronze/Busy_FRAME08.png", "XPcursors/3D-Bronze/Busy_FRAME09.png", "XPcursors/3D-Bronze/Busy_FRAME010.png", "XPcursors/3D-Bronze/Busy_FRAME011.png", "XPcursors/3D-Bronze/Busy_FRAME012.png", "XPcursors/3D-Bronze/Busy_FRAME013.png", "XPcursors/3D-Bronze/Busy_FRAME014.png", "XPcursors/3D-Bronze/Busy_FRAME015.png", "XPcursors/3D-Bronze/Busy_FRAME016.png"];
+/*var arr_hourgla2ani = ["XPcursors/3D-Bronze/Busy_FRAME01.png", "XPcursors/3D-Bronze/Busy_FRAME02.png", "XPcursors/3D-Bronze/Busy_FRAME03.png", "XPcursors/3D-Bronze/Busy_FRAME04.png", "XPcursors/3D-Bronze/Busy_FRAME05.png", "XPcursors/3D-Bronze/Busy_FRAME06.png", "XPcursors/3D-Bronze/Busy_FRAME07.png", "XPcursors/3D-Bronze/Busy_FRAME08.png", "XPcursors/3D-Bronze/Busy_FRAME09.png", "XPcursors/3D-Bronze/Busy_FRAME010.png", "XPcursors/3D-Bronze/Busy_FRAME011.png", "XPcursors/3D-Bronze/Busy_FRAME012.png", "XPcursors/3D-Bronze/Busy_FRAME013.png", "XPcursors/3D-Bronze/Busy_FRAME014.png", "XPcursors/3D-Bronze/Busy_FRAME015.png", "XPcursors/3D-Bronze/Busy_FRAME016.png"];
 var arr_appstar2ani = ["XPcursors/3D-Bronze/WorkingInBackground_FRAME01.png", "XPcursors/3D-Bronze/WorkingInBackground_FRAME02.png", "XPcursors/3D-Bronze/WorkingInBackground_FRAME03.png", "XPcursors/3D-Bronze/WorkingInBackground_FRAME04.png", "XPcursors/3D-Bronze/WorkingInBackground_FRAME05.png", "XPcursors/3D-Bronze/WorkingInBackground_FRAME06.png", "XPcursors/3D-Bronze/WorkingInBackground_FRAME07.png", "XPcursors/3D-Bronze/WorkingInBackground_FRAME08.png", "XPcursors/3D-Bronze/WorkingInBackground_FRAME09.png", "XPcursors/3D-Bronze/WorkingInBackground_FRAME010.png", "XPcursors/3D-Bronze/WorkingInBackground_FRAME011.png"];
 //3D-White
 var arr_hourgla3ani = ["XPcursors/3D-White/Busy_FRAME01.png", "XPcursors/3D-White/Busy_FRAME02.png", "XPcursors/3D-White/Busy_FRAME03.png", "XPcursors/3D-White/Busy_FRAME04.png", "XPcursors/3D-White/Busy_FRAME05.png", "XPcursors/3D-White/Busy_FRAME06.png", "XPcursors/3D-White/Busy_FRAME07.png", "XPcursors/3D-White/Busy_FRAME08.png", "XPcursors/3D-White/Busy_FRAME09.png", "XPcursors/3D-White/Busy_FRAME10.png", "XPcursors/3D-White/Busy_FRAME11.png", "XPcursors/3D-White/Busy_FRAME12.png", "XPcursors/3D-White/Busy_FRAME13.png", "XPcursors/3D-White/Busy_FRAME14.png", "XPcursors/3D-White/Busy_FRAME15.png", "XPcursors/3D-White/Busy_FRAME16.png"];
@@ -62,7 +62,7 @@ var arr_sizensani = ["XPcursors/Variations/VerticalResize_FRAME01.png", "XPcurso
 //WindowsAnimated
 var arr_hourglasani = ["XPcursors/WindowsAnimated/Busy_FRAME01.png", "XPcursors/WindowsAnimated/Busy_FRAME02.png", "XPcursors/WindowsAnimated/Busy_FRAME03.png", "XPcursors/WindowsAnimated/Busy_FRAME04.png", "XPcursors/WindowsAnimated/Busy_FRAME05.png", "XPcursors/WindowsAnimated/Busy_FRAME06.png", "XPcursors/WindowsAnimated/Busy_FRAME07.png", "XPcursors/WindowsAnimated/Busy_FRAME08.png", "XPcursors/WindowsAnimated/Busy_FRAME09.png", "XPcursors/WindowsAnimated/Busy_FRAME10.png", "XPcursors/WindowsAnimated/Busy_FRAME11.png", "XPcursors/WindowsAnimated/Busy_FRAME12.png", "XPcursors/WindowsAnimated/Busy_FRAME13.png", "XPcursors/WindowsAnimated/Busy_FRAME14.png", "XPcursors/WindowsAnimated/Busy_FRAME15.png", "XPcursors/WindowsAnimated/Busy_FRAME16.png"];
 var arr_appstartani = ["XPcursors/WindowsAnimated/WorkingInBackground_FRAME01.png", "XPcursors/WindowsAnimated/WorkingInBackground_FRAME02.png", "XPcursors/WindowsAnimated/WorkingInBackground_FRAME03.png", "XPcursors/WindowsAnimated/WorkingInBackground_FRAME04.png", "XPcursors/WindowsAnimated/WorkingInBackground_FRAME05.png", "XPcursors/WindowsAnimated/WorkingInBackground_FRAME06.png", "XPcursors/WindowsAnimated/WorkingInBackground_FRAME07.png", "XPcursors/WindowsAnimated/WorkingInBackground_FRAME08.png", "XPcursors/WindowsAnimated/WorkingInBackground_FRAME09.png", "XPcursors/WindowsAnimated/WorkingInBackground_FRAME10.png", "XPcursors/WindowsAnimated/WorkingInBackground_FRAME11.png"];
-
+*/
 
 
 //---------------CALL THESE---------------//
@@ -126,7 +126,7 @@ function animatedCursorForElement(arr_animation, str_tagName, str_frameVar){
 		window[str_frameVar] = 0;
 	}
 	//apply to all elements
-	setCursorToTag(arr_animation[window[str_frameVar]], str_tagName)
+	setCursorToTag(arr_animation[window[str_frameVar]], str_tagName);
 }
 
 function animateCursorDefault(arr_animation){
@@ -162,7 +162,7 @@ function setCursorToTag(str_image, str_tagName){
 //the first = an animated cursor for the page's body
 //the second (_tag) = an animated cursor for individual elements like buttons or links
 
-function hourgla2ani(){
+/*function hourgla2ani(){
 	animateCursor(arr_hourgla2ani);
 }
 function hourgla2ani_tag(str_tag){
@@ -378,11 +378,11 @@ function sizensani(){
 function sizensani_tag(str_tag){
 	animateCursorForElement(arr_sizensani, str_tag);
 }
-
+*/
 //---------------NON-ANIMATED CURSORS---------------//
 
 //3D-Bronze
-function _3dgnwsecur(){
+/*function _3dgnwsecur(){
 	staticCursor("XPcursors/3D-Bronze/DiagonalResize1.png");
 }
 function _3dgnwsecur_tag(str_tag){
@@ -417,9 +417,9 @@ function _3dgnscur(){
 }
 function _3dgnscur_tag(str_tag){
 	staticCursorForElement("XPcursors/3D-Bronze/VerticalResize.png", str_tag);
-}
+}*/
 //3D-White
-function _3dwnwsecur(){
+/*function _3dwnwsecur(){
 	staticCursor("XPcursors/3D-White/DiagonalResize1.png");
 }
 function _3dwnwsecur_tag(str_tag){
@@ -460,9 +460,9 @@ function _3dwnscur(){
 }
 function _3dwnscur_tag(str_tag){
 	staticCursorForElement("XPcursors/3D-White/VerticalResize.png", str_tag);
-}
+}*/
 //Conductor, Hands1, Hands2...
-function _hnwsecur(){
+/*function _hnwsecur(){
 	staticCursor("XPcursors/Conductor/DiagonalResize1.png");
 }
 function _hnwsecur_tag(str_tag){
@@ -515,9 +515,9 @@ function _hnodropcur(){
 }
 function _hnodropcur_tag(str_tag){
 	staticCursorForElement("XPcursors/Hands1/Unavailable.png", str_tag);
-}
+}*/
 //Dinosaur
-function _3dgneswcur(){
+/*function _3dgneswcur(){
 	staticCursor("XPcursors/Dinosaur/DiagonalResize1.png");
 }
 function _3dgneswcur_tag(str_tag){
@@ -546,9 +546,9 @@ function _3dgarrocur(){
 }
 function _3dgarrocur_tag(str_tag){
 	staticCursorForElement("XPcursors/Dinosaur/NormalSelect.png", str_tag);
-}
+}*/
 //Classic Miscellaneous
-function _classicTextSelectcur(){
+/*function _classicTextSelectcur(){
 	staticCursor("XPcursors/3D-Bronze/TextSelect.png");
 }
 function _classicTextSelectcur_tag(str_tag){
@@ -595,9 +595,9 @@ function _classicUnavailablecur(){
 }
 function _classicUnavailablecur_tag(str_tag){
 	staticCursorForElement("XPcursors/WindowsAnimated/Unavailable.png", str_tag);
-}
+}*/
 //Classic Magnified
-function _magnifiedBusycur(){
+ /*function _magnifiedBusycur(){
 	staticCursor("XPcursors/Magnified/Busy.png");
 }
 function _magnifiedBusycur_tag(str_tag){
@@ -662,9 +662,9 @@ function _magnifiedWorkingInBackgroundcur(){
 }
 function _magnifiedWorkingInBackgroundcur_tag(str_tag){
 	staticCursorForElement("XPcursors/Magnified/WorkingInBackground.png", str_tag);
-}
+}*/
 //Classic Windows Black
-function _windowsBlackBusycur(){
+/*function _windowsBlackBusycur(){
 	staticCursor("XPcursors/WindowsBlack/Busy.png");
 }
 function _windowsBlackBusycur_tag(str_tag){
@@ -1047,7 +1047,7 @@ function _windowsStandardLWorkingInBackgroundcur(){
 function _windowsStandardLWorkingInBackgroundcur_tag(str_tag){
 	staticCursorForElement("XPcursors/WindowsStandardLarge/WorkingInBackground.png", str_tag);
 }
-
+*/
 //---------------ON PAGE LOAD, CUSTOMIZE THIS...---------------//
 
 //customize this with your desired functions
@@ -1059,20 +1059,20 @@ window.addEventListener("load",function(){
 	//see https://www.w3schools.com/tags/ for a list of all elements
 	
 	//default cursor
-	dinosau2ani();
+	  //dinosau2ani();
 	
 	//other elements
-	dinosaurani_tag("p");
-	bananaani_tag("button");
-	handnoani_tag("input");
-	dinosaurani_tag("a");
+	//dinosaurani_tag("p");
+	//bananaani_tag("button");
+	//handnoani_tag("input");
+	//dinosaurani_tag("a");
 	
-	handani_tag("h1");
-	horseani_tag("h2");
-	pianoani_tag("h3");
-	hourglasani_tag("h4");
-	handwaitani_tag("h5");
-	wagtailani_tag("h6");
+	//handani_tag("h1");
+	//horseani_tag("h2");
+	//pianoani_tag("h3");
+	//hourglasani_tag("h4");
+	//handwaitani_tag("h5");
+	//wagtailani_tag("h6");
 	
 	//example of a custom animation set to a list tag...
 	animateCursorForElement(['Custom/sparkle/CursorStarSparkle-frame1.png', 'Custom/sparkle/CursorStarSparkle-frame2.png', 'Custom/sparkle/CursorStarSparkle-frame3.png', 'Custom/sparkle/CursorStarSparkle-frame4.png', 'Custom/sparkle/CursorStarSparkle-frame5.png', 'Custom/sparkle/CursorStarSparkle-frame6.png', 'Custom/sparkle/CursorStarSparkle-frame7.png', 'Custom/sparkle/CursorStarSparkle-frame8.png', 'Custom/sparkle/CursorStarSparkle-frame9.png', 'Custom/sparkle/CursorStarSparkle-frame10.png', 'Custom/sparkle/CursorStarSparkle-frame11.png', 'Custom/sparkle/CursorStarSparkle-frame12.png', 'Custom/sparkle/CursorStarSparkle-frame13.png', 'Custom/sparkle/CursorStarSparkle-frame14.png', 'Custom/sparkle/CursorStarSparkle-frame15.png', 'Custom/sparkle/CursorStarSparkle-frame16.png', 'Custom/sparkle/CursorStarSparkle-frame17.png', 'Custom/sparkle/CursorStarSparkle-frame18.png', 'Custom/sparkle/CursorStarSparkle-frame19.png', 'Custom/sparkle/CursorStarSparkle-frame20.png'], "li");
