@@ -220,5 +220,5 @@ color: #E95454;
   content:url(https://cdn.shopify.com/s/files/1/0553/1480/9007/t/4/assets/line.png?v=1640859757); 
   position:absolute;
   top:50%;
-  right:0;
+  right:-50px;
 }
