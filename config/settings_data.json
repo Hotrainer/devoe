@@ -185,21 +185,27 @@
             "type": "text",
             "settings": {
               "text": "<p>Devoe Street Bakeshop is the vision of award-winning pastry chef, Angela Carlucci, who, alongside her team, bakes from scratch in an American tradition at our Brooklyn bakery cafe.Whether they are baking cookies, muffins, bars, or loaves, Angela's team combines simple ingredients in creative, magical ways to bring you the most delicious, comforting baked goods that you will find anywhere.<\/p>",
-              "use_custom_text": true
+              "use_custom_text": true,
+              "use_right_align": false,
+              "use_margin_top": false
             }
           },
           "1bba28a3-c891-4edf-8ba9-206594d96771": {
             "type": "text",
             "settings": {
               "text": "<p><em>“A delicious, comforting baked good can give you a bright moment of joy away from your daily stress and routine. That's our goal, to put that kind of care and love into our recipes.”<\/em><\/p>",
-              "use_custom_text": true
+              "use_custom_text": true,
+              "use_right_align": false,
+              "use_margin_top": false
             }
           },
           "57114e37-39c3-48a3-87b6-e8a136a4f236": {
             "type": "text",
             "settings": {
               "text": "<p><em>- Angela<\/em><\/p>",
-              "use_custom_text": false
+              "use_custom_text": true,
+              "use_right_align": true,
+              "use_margin_top": false
             }
           }
         },
