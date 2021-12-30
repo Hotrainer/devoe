@@ -100,6 +100,9 @@ color: #0D131F;
 .d-about-right-align p {
   text-align:right;
 }
+.d-about-big-mt {
+  margin-top:155px;
+}
 .color-transparent .rich-text__blocks {
  max-width:120rem; 
   width:100%
