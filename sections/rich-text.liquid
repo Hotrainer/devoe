@@ -9,7 +9,7 @@
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'heading' -%}
-          <h2 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</h2>
+          <h2 class="{{ block.settings.heading_size }} {% if block.settings.use_custom_heading %} d-about-heading{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</h2>
         {%- when 'text' -%}
           <div class="rich-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
         {%- when 'button' -%}
