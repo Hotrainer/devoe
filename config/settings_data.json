@@ -79,26 +79,8 @@
       },
       "image-banner": {
         "type": "image-banner",
-        "blocks": {
-          "c3733a07-0541-421e-b6c2-34c8b4fa9843": {
-            "type": "heading",
-            "settings": {
-              "heading": "Our Menu"
-            }
-          },
-          "48506538-c2a2-422d-b78e-ed48ecb70564": {
-            "type": "text",
-            "settings": {
-              "text": "Baked fresh from scratch each morning"
-            }
-          }
-        },
-        "block_order": [
-          "c3733a07-0541-421e-b6c2-34c8b4fa9843",
-          "48506538-c2a2-422d-b78e-ed48ecb70564"
-        ],
         "settings": {
-          "image": "shopify:\/\/shop_images\/menu_bg.jpg",
+          "image": "shopify:\/\/shop_images\/about_hero.jpg",
           "desktop_text_box_position": "center",
           "color_scheme": "background-1",
           "stack_images_on_mobile": true,
