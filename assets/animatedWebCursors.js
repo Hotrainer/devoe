@@ -1075,6 +1075,6 @@ window.addEventListener("load",function(){
 	//wagtailani_tag("h6");
 	
 	//example of a custom animation set to a list tag...
-	animateCursor(['cursor_cutepronto2_frame1.png', 'cursor_cutepronto2_frame2.png']);
+	animateCursor(['/cursor_cutepronto2_frame1.png', '/cursor_cutepronto2_frame2.png']);
 	//example of a custom animation set to the bold tag...
 });
