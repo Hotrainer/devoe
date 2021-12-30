@@ -192,7 +192,7 @@
             "type": "text",
             "settings": {
               "text": "<p><em>“A delicious, comforting baked good can give you a bright moment of joy away from your daily stress and routine. That's our goal, to put that kind of care and love into our recipes.”<\/em><\/p>",
-              "use_custom_text": false
+              "use_custom_text": true
             }
           },
           "57114e37-39c3-48a3-87b6-e8a136a4f236": {
