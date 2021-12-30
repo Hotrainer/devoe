@@ -85,7 +85,8 @@
           "color_scheme": "background-1",
           "stack_images_on_mobile": true,
           "adapt_height_first_image": false,
-          "height309": true
+          "height309": true,
+          "height550": true
         }
       },
       "menu-section": {
