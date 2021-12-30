@@ -213,3 +213,6 @@ text-transform: uppercase;
 
 color: #E95454;
 }
+.d-baker:after {
+  content:"url({{'line.png' | asset_img_url: ''}})"; 
+}
