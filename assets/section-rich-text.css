@@ -82,3 +82,6 @@ line-height: 1.98;
 color: #E95454;
   text-align:left;
 }
+.color-transparent .rich-text__blocks {
+ max-width:120rem; 
+}
