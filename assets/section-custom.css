@@ -214,5 +214,5 @@ text-transform: uppercase;
 color: #E95454;
 }
 .d-baker:after {
-  content:"url({{'line.png' | asset_img_url: ''}})"; 
+  content:"url(https://cdn.shopify.com/s/files/1/0553/1480/9007/t/4/assets/line.png?v=1640859757)"; 
 }
