@@ -73,3 +73,12 @@
 .rich-text__blocks > * + a {
   margin-top: 3rem;
 }
+h2.d-about-heading {
+font-family: 'name_sans_headingblack';
+font-style: italic;
+font-weight: 900;
+font-size: 45px;
+line-height: 1.98;
+color: #E95454;
+  text-align:left;
+}
