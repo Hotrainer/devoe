@@ -215,11 +215,11 @@ color: #E95454;
 }
 .d-baker p{
  position:relative; 
-  margin-bottom:100px;
+  margin-bottom:50px;
 }
 .d-baker p:after {
   content:url(https://cdn.shopify.com/s/files/1/0553/1480/9007/t/4/assets/line.png?v=1640860674); 
   position:absolute;
   top:50%;
-  right:-50px;
+  right:-10px;
 }
