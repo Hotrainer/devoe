@@ -46,9 +46,9 @@
     margin-right:auto;
   }
  .d-desktop-empty {
-   max-width:28%;
+   max-width:8%;
    display:block!important;
-   width:28%;
+   width:8%;
  }
   .product:not(.product--no-media) .product__info-wrapper {
     padding-left: 4rem;
