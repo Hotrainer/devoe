@@ -84,4 +84,5 @@ color: #E95454;
 }
 .color-transparent .rich-text__blocks {
  max-width:120rem; 
+  width:100%
 }
