@@ -18,7 +18,7 @@ var str_pathToImageFolder = "";
 //
 var int_cursorAnimationInterval;//animation interval id
 var num_cursorAnimationFrame = 0;//the animation frame (counts through arrays)
-var num_animationSpeed = 100;//interval speed
+var num_animationSpeed = 500;//interval speed
 
 //---------------ANIMATION ARRAYS---------------//
 
