@@ -240,8 +240,15 @@ color: #E95454;
   .d-middle-left-image {
     margin:50px auto;
   }
+  .d-container {
+    padding:0 15px;
+  }
   .d-container-middle img {
     width:100%;
+  }
+  .d-custom-text {
+    max-width:100%;
+    margin:o auto;
   }
   .d-top-right-image img {
     transform:translate(0,0);
