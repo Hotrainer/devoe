@@ -226,9 +226,14 @@ color: #E95454;
   top:35px;
   right:-80px;
 }
+@media(min-width:980px){
+.d-grid-top.d-grid-2 {
+  grid-auto-columns: minmax(0, 1fr);
+grid-auto-flow: column;
+}
+}
 @media(max-width:979px) {
   .d-grid-top.d-grid-2 {
-    grid-auto-columns: 1fr;
     grid-template-columns: 1fr;
   }
   .d-h1-wrap h1 {
