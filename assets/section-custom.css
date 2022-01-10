@@ -249,6 +249,9 @@ color: #E95454;
   .d-container-middle img {
     width:100%;
   }
+  .d-top-right-image {
+    margin:50px auto;
+  }
   .d-custom-text {
     max-width:100%;
     margin:0 auto;
