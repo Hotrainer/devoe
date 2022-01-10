@@ -240,3 +240,7 @@ color: #E95454;
   .d-middle-left-image {
     margin:50px auto;
   }
+  .d-baker p:after {
+    display:none;
+  }
+}
