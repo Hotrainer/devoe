@@ -2308,3 +2308,8 @@ color: #0D131F;
   color: #E75558;
   text-decoration:none;
 }
+  @media(max-width:979px) {
+   .d-header-btn {
+    display:none; 
+   }
+  }
