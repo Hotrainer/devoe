@@ -239,6 +239,7 @@ grid-auto-flow: column;
   }
   .d-h1-wrap h1 {
     font-size:3.1rem;
+    text-align:center;
   }
   .d-grid-2 {
     grid-template-columns: 1fr;
