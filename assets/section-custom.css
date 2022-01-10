@@ -15,8 +15,6 @@
  grid-template-columns:1fr 1fr; 
 }
 .d-grid-top.d-grid-2 {
-  grid-auto-columns: minmax(0, 1fr);
-grid-auto-flow: column;
   grid-template-columns:inherit; 
   padding-bottom:120px;
 }
