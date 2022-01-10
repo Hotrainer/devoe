@@ -226,3 +226,9 @@ color: #E95454;
   top:35px;
   right:-80px;
 }
+@media(max-width:979px) {
+  .d-grid-top.d-grid-2 {
+    grid-auto-columns: minmax(1fr);
+    grid-template-columns: 1fr;
+  }
+  }
