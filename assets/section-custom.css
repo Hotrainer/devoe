@@ -286,4 +286,7 @@ grid-auto-flow: column;
   .d-big-text p {
     font-size:2.4rem;
   }
+  .d-product-item-top-text p {
+    order:2;
+  }
 }
