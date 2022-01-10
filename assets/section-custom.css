@@ -243,4 +243,6 @@ color: #E95454;
   .d-baker p:after {
     display:none;
   }
+  .d-left-moved img.d-left-gif {
+    margin:0 auto;
 }
