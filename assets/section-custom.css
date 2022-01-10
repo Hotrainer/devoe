@@ -246,3 +246,7 @@ color: #E95454;
   .d-left-moved img.d-left-gif {
     margin:0 auto;
 }
+  .d-left-moved img:first-of-type {
+     margin:0 auto 50px;
+  }
+}
