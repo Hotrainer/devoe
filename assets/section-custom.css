@@ -243,6 +243,9 @@ color: #E95454;
   .d-container {
     padding:0 15px;
   }
+  .d-container-middle {
+   text-align:center; 
+  }
   .d-container-middle img {
     width:100%;
   }
