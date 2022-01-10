@@ -237,4 +237,6 @@ color: #E95454;
   .d-container-middle .d-grid-2 {
     grid-template-columns: 1fr;
   }
+  .d-middle-left-image {
+    margin:50px auto;
   }
