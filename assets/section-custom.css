@@ -243,6 +243,9 @@ color: #E95454;
   .d-container-middle img {
     width:100%;
   }
+  .d-top-right-image img {
+    transform:translate(0,0);
+  }
   .d-baker p:after {
     display:none;
   }
