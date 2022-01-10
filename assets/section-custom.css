@@ -234,7 +234,7 @@ color: #E95454;
   .d-h1-wrap h1 {
     font-size:3.1rem;
   }
-  .d-container-middle .d-grid-2 {
+  .d-grid-2 {
     grid-template-columns: 1fr;
   }
   .d-middle-left-image {
