@@ -256,6 +256,9 @@ grid-auto-flow: column;
   .d-container-middle img {
     width:100%;
   }
+  .d-mobile-200 img {
+   height:200px; 
+  }
   .d-top-right-image {
     margin:-8px auto 50px;
   }
