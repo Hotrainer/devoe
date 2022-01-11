@@ -295,4 +295,7 @@ grid-auto-flow: column;
   .d-wrap-btn {
    text-align:center; 
   }
+  .d-top-btn {
+   margin:79px 0 0; 
+  }
 }
