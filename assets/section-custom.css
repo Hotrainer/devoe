@@ -245,7 +245,7 @@ grid-auto-flow: column;
     grid-template-columns: 1fr;
   }
   .d-middle-left-image {
-    margin:50px auto;
+    margin:50px auto 0;
   }
   .d-container {
     padding:0 15px;
