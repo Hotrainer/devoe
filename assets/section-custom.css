@@ -314,4 +314,7 @@ grid-auto-flow: column;
     top: 80%;
     right: 10px;
   }
+  .d-center-row {
+    margin:50px 0;
+  }
 }
