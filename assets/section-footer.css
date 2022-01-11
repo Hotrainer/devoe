@@ -144,7 +144,7 @@
 }
 
 .footer-block--newsletter {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-end;
