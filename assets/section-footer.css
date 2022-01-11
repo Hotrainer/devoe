@@ -558,6 +558,7 @@ color: rgba(255, 255, 255, 0.6);
   line-height:18px;
   width:18px;
   height:18px;
+  display: inline-block;
 }
 .footer-block:last-of-type li:nth-child(3) a {
 background: url(https://cdn.shopify.com/s/files/1/0553/1480/9007/t/4/assets/facebook.svg?v=1641926932);
