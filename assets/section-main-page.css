@@ -24,7 +24,7 @@
 .page-menu h3 {
 font-family: 'master_worksregular';
 font-weight: normal;
-font-size: 7.8rem;
+font-size: 10.1rem;
 line-height: 1;
 text-transform: lowercase;
 text-align:center;
@@ -35,7 +35,7 @@ color: #E75558;
 font-family: 'name_sans_headingblack';
 font-style: italic;
 font-weight: 900;
-font-size: 2.4rem;
+font-size: 3.1rem;
 line-height: 1.8;
 text-align: center;
 
@@ -45,4 +45,12 @@ color: #0D131F;
   font-family: 'name_sans_textregular';
   font-weight: 400;
   font-style: normal;
+}
+@media(max-width:767px) {
+ .page-menu h3 {
+  font-size:6rem; 
+ }
+  .page-menu p {
+  font-size:2rem; 
+ }
 }
