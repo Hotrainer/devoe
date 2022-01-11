@@ -2247,7 +2247,7 @@ font-size: 1.6rem;
 line-height: 1.1;
 color: rgba(255, 255, 255, 0.6);
   }
- .footer-block__details-content p:before {  
+ .footer-block__details-content p:first-of-type:before {  
   content:url(https://cdn.shopify.com/s/files/1/0553/1480/9007/t/4/assets/clock.svg?v=1638991995);
   height:15px;
   width:15px;
