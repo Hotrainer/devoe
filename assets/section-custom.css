@@ -257,7 +257,7 @@ grid-auto-flow: column;
     width:100%;
   }
   .d-top-right-image {
-    margin:50px auto;
+    margin:0 auto 50px;
   }
   .d-top-right-image img {
     width:100%;
