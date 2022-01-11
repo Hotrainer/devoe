@@ -549,3 +549,6 @@ color: rgba(255, 255, 255, 0.6);
   text-align:center; 
  }
 }
+.footer-block:last-of-type li:nth-child(3) {
+ display:inline; 
+}
