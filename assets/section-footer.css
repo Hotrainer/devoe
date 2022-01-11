@@ -77,6 +77,9 @@
   margin:0 auto;
   text-align:center;
 }
+.d-footer-bottom-text p {
+ color:rgba(255,255,255,0.55); 
+}
 @media screen and (max-width: 749px) {
   .footer__content-bottom {
     flex-wrap: wrap;
