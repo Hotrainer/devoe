@@ -74,6 +74,8 @@
 .d-footer-bottom-text {
   max-width:650px;
   width:100%;
+  margin:0 auto;
+  text-align:center;
 }
 @media screen and (max-width: 749px) {
   .footer__content-bottom {
