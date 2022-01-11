@@ -2315,4 +2315,8 @@ color: #0D131F;
     .header {
      grid-template-columns:1fr 3fr 1fr; 
     }
+    .d-page-contact-link, .d-page-instagram-link {
+     font-size:2rem; 
+    }
   }
+  
