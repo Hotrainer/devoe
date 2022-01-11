@@ -2312,4 +2312,7 @@ color: #0D131F;
    .d-header-btn {
     display:none; 
    }
+    .header {
+     grid-template-columns:1fr 3fr 1fr; 
+    }
   }
