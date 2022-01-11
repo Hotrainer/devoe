@@ -261,6 +261,9 @@ grid-auto-flow: column;
   .d-top-right-image {
     margin:2px auto 50px;
   }
+  .d-product-item-bottom-text .d-product-wrap {
+   padding:0; 
+  }
   .d-top-right-image img {
     width:100%;
   }
