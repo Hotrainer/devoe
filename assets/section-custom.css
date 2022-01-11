@@ -259,7 +259,7 @@ grid-auto-flow: column;
    height:200px; 
   }
   .d-top-right-image {
-    margin:-8px auto 50px;
+    margin:2px auto 50px;
   }
   .d-top-right-image img {
     width:100%;
