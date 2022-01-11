@@ -306,4 +306,10 @@ grid-auto-flow: column;
   .d-top-scedule p {
        font-size: 0.8rem;
   }
+  .d-top-scedule {
+    width: 100px;
+    height: 119px;
+    top: 80%;
+    right: 10px;
+  }
 }
