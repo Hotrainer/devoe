@@ -224,3 +224,8 @@ color: #FFFFFF;
 .height309 .banner__box {
  width:100%; 
 }
+@media screen and (max-width: 749px) {
+#shopify-section-image-banner-about .banner:not(.banner--adapt):not(.banner--stacked)>.banner__media{
+  height:15rem;
+}
+}
