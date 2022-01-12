@@ -317,6 +317,9 @@ color: #0D131F;
 }
 @media(max-width:979px) {
   .card-information .card-information__text {
-font-size: 1.2rem;
+font-size: 1.6rem;
+  }
+  .card-information .price-item {
+    font-size: 1.2rem;
   }
 }
