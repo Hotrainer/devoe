@@ -228,4 +228,7 @@ color: #FFFFFF;
 #shopify-section-image-banner-about .banner:not(.banner--adapt):not(.banner--stacked)>.banner__media{
   height:15rem;
 }
+ #shopify-section-image-banner-about .banner.height550 {
+  min-height:15rem; 
+ }
 }
