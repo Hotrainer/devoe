@@ -263,11 +263,11 @@ color: #E95454;
 }
 @keyframes fade-right {
   0% {
-    transform: translateX(700px);
+    transform: translate(700px, 0);
     opacity: 0;
   }
   100% {
-    transform: translateX(0);
+        transform: translate(-200px,100px);
     opacity: 1;
   }
 }
