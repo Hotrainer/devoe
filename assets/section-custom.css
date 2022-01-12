@@ -239,7 +239,7 @@ color: #E95454;
   animation: fade-left 2s ease-in;
 }
 .active.fade-right {
-  animation: fade-right 2s ease-in;
+  animation: fade-right 2s ease-out;
 }
 @keyframes fade-bottom {
   0% {
