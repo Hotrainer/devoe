@@ -107,3 +107,9 @@ color: #0D131F;
  max-width:120rem; 
   width:100%
 }
+@media(max-width:767px) {
+ h2.d-about-heading {
+  font-size:30px;
+   padding:0 15px;
+ }
+}
