@@ -315,3 +315,8 @@ line-height: 1.3;
 text-align: center;
 color: #0D131F;
 }
+@media(max-width:979px) {
+  .card-information .card-information__text {
+font-size: 1.2rem;
+  }
+}
