@@ -550,8 +550,11 @@ color: rgba(255, 255, 255, 0.6);
  }
 }
 .footer-block:last-of-type li:nth-child(3), .footer-block:last-of-type li:last-of-type {
- display:inline; 
-  margin:0 5px;
+    display: inline-block;
+    margin: 0 5px;
+    height: 18px;
+    width: 18px;
+    overflow: hidden;
 }
 .footer-block:last-of-type li:nth-child(3) a, .footer-block:last-of-type li:last-of-type a {
   font-size:0;
