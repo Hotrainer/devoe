@@ -115,4 +115,7 @@ color: #0D131F;
   .d-about-text {
     padding:0 15px;
   }
+  .d-about-big-mt {
+   margin-top:75px; 
+  }
 }
