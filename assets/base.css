@@ -1778,7 +1778,7 @@ input[type='checkbox'] {
   top: 0;
 }
 sticky-header.header-wrapper {
- background: rgba(229,225,206,0.85); 
+ background: rgba(229,225,206,1); 
 }
 .shopify-section-header-hidden {
   transform: translateY(-100%);
