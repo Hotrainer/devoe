@@ -135,6 +135,8 @@ color:#E95454;
 .d-left-moved img.d-left-gif {
  margin-left:-150px;
   border-radius:50%;
+      position: relative;
+    z-index: 2;
 }
 .d-mb--120 {
   margin-bottom:-120px;
