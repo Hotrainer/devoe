@@ -223,6 +223,16 @@ color: #E95454;
   top:35px;
   right:-80px;
 }
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
 @media(min-width:980px){
 .d-grid-top.d-grid-2 {
   grid-auto-columns: minmax(0, 1fr);
