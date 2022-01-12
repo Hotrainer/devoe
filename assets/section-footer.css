@@ -554,7 +554,6 @@ color: rgba(255, 255, 255, 0.6);
     margin: 0 5px;
     height: 18px;
     width: 18px;
-    overflow: hidden;
 }
 .footer-block:last-of-type li:nth-child(3) a, .footer-block:last-of-type li:last-of-type a {
   font-size:0;
@@ -568,4 +567,9 @@ background: url(https://cdn.shopify.com/s/files/1/0553/1480/9007/t/4/assets/face
 }
 .footer-block:last-of-type li:last-of-type a {
 background: url(https://cdn.shopify.com/s/files/1/0553/1480/9007/t/4/assets/Insta.svg?v=1641926924);
+}
+@media(max-width:979px) {
+  .footer-block:last-of-type li:nth-child(3), .footer-block:last-of-type li:last-of-type {
+    overflow: hidden;
+}
 }
