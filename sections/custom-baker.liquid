@@ -1,6 +1,7 @@
 <div class="d-container">
 <div class="d-full-row">
   <div class="d-big-text d-baker">{{section.settings.text}}</div>
+  <div class="d-big-text d-baker-second">{{section.settings.text}}</div>
   <div class="d-left-moved">
     <img class="reveal fade-bottom" src="{{section.settings.image | img_url: '517x'}}">
     <img src="{{section.settings.image_2 | img_url: '342x'}}" class="d-left-gif">
@@ -16,9 +17,15 @@
   "settings": [
 {
           "type": "textarea",
-          "id": "text",
+          "id": "text_1",
           "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-          "label": "Middle Text"
+          "label": "Middle Text 1"
+        },
+{
+          "type": "textarea",
+          "id": "text_2",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "label": "Middle Text 2"
         },
     {
       "type": "image_picker",
