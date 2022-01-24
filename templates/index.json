@@ -18,7 +18,8 @@
     "1638977742290e670f": {
       "type": "custom-middle",
       "settings": {
-        "text": "<p>Inspired by traditional American baking. Rustic, simple, handcrafted. <span>Let our baked goods give you a warm hug.<\/span><\/p>",
+        "text_1": "<p>Inspired by traditional American baking. Rustic, simple, handcrafted. <\/p>",
+        "text_2": "<p><span>Let our baked goods give you a warm hug.<\/span><\/p>",
         "image": "shopify:\/\/shop_images\/Slice_1_1.png",
         "image_2": "shopify:\/\/shop_images\/middle_right.jpg"
       }
