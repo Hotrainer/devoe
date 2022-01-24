@@ -26,7 +26,8 @@
     "16389782666fb30881": {
       "type": "custom-baker",
       "settings": {
-        "text": "<p>Our award-winning pastry chef <span>Angela Carlucci<\/span>. Her dedicated team bakes from scratch every morning.\n\n<\/p>",
+        "text_1": "<p>Our award-winning pastry chef <span>Angela Carlucci<\/span>.<\/p>",
+        "text_2": "<p>Her dedicated team bakes from scratch every morning.<\/p>",
         "image": "shopify:\/\/shop_images\/angela.png",
         "image_2": "shopify:\/\/shop_images\/SCONE_MAKING_GIF_01C.gif"
       }
