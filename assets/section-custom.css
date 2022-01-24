@@ -274,7 +274,7 @@ color: #E95454;
     opacity: 0;
   }
   100% {
-        transform: translate(-100px,100px);
+        transform: translate(-200px,0px);
     opacity: 1;
   }
 }
