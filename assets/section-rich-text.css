@@ -80,7 +80,7 @@ font-weight: 900;
 font-size: 45px;
 line-height: 1.98;
 color: #E95454;
-  text-align:left;
+  text-align:center;
 }
 .d-about-text p {
     font-family: 'name_sans_textregular';
@@ -88,7 +88,7 @@ font-weight: normal;
 font-size: 24px;
 line-height: 1.92;
 color: #0D131F;
-  text-align:left;
+  text-align:center;
 }
 .d-about-text p em {
     font-family: 'master_worksregular';
