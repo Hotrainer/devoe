@@ -217,6 +217,7 @@ color: #E95454;
 }
 .d-baker p{
  position:relative; 
+  margin-bottom:0;
 }
 .d-baker p:after {
   content:url(https://cdn.shopify.com/s/files/1/0553/1480/9007/t/4/assets/arrow.png?v=1641392517); 
