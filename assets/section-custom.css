@@ -63,7 +63,7 @@ border-radius: 10px;
     display: inline-block; 
 }
 .d-top-right-image img{
-  transform: translate(-200px, 100px);
+ /* transform: translate(-200px, 100px); */
 }
 .d-top-scedule {
   width:191px;
@@ -274,7 +274,7 @@ color: #E95454;
     opacity: 0;
   }
   100% {
-        transform: translate(40px,100px);
+        transform: translate(-200px,100px);
     opacity: 1;
   }
 }
