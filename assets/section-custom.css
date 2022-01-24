@@ -223,7 +223,7 @@ color: #E95454;
 .d-baker p:after {
   content:url(arrow_360.png); 
   position:absolute;
-  top:30px;
+  top:50px;
   right:-100px;
 }
 .d-baker-second p {
