@@ -110,7 +110,7 @@ color: #0D131F;
   color:#E75558;
 }
 .d-middle-left-image {
-     margin: 185px 0 0 240px;
+     margin: 185px 0 0 0;
 }
 .d-top-right-image {
   margin: 0 0 100px 40px;
@@ -263,7 +263,7 @@ color: #E95454;
     opacity: 0;
   }
   100% {
-    transform: translateX(0);
+    transform: translateX(240px);
     opacity: 1;
   }
 }
