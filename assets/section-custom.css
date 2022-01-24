@@ -273,9 +273,16 @@ color: #E95454;
     opacity: 0;
   }
   100% {
-        transform: translate(-200px,100px);
+        transform: translate(-100px,100px);
     opacity: 1;
   }
+}
+.d-block-row {
+ display:block; 
+}
+.d-block-row .d-column {
+ width:50%;
+  float:left;
 }
 @media(min-width:980px){
 .d-grid-top.d-grid-2 {
