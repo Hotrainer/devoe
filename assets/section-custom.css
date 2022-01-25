@@ -151,12 +151,13 @@ color:#E95454;
 transform: translatey(0px);
 }
 .d-column:first-of-type .d-product-wrap a {
-transform: translatey(0px);
 	animation: float 6s ease-in-out infinite;
 }
 .d-column:last-of-type .d-product-wrap a {
-transform: translatey(0px);
-	animation: float 7s ease-in infinite;
+	animation: float7 7s ease-in infinite;
+}
+.d-column:last-of-type .d-product-item:last-of-type .d-product-wrap a {
+  animation: float5 5s ease-out infinite;
 }
 @keyframes float {
 	0% {
@@ -175,6 +176,17 @@ transform: translatey(0px);
 	}
 	50% {
 		transform: translatey(-30px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+@keyframes float5 {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-15px);
 	}
 	100% {
 		transform: translatey(0px);
