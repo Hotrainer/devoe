@@ -154,12 +154,27 @@ transform: translatey(0px);
 transform: translatey(0px);
 	animation: float 6s ease-in-out infinite;
 }
+.d-column:last-of-type .d-product-wrap a {
+transform: translatey(0px);
+	animation: float 7s ease-in infinite;
+}
 @keyframes float {
 	0% {
 		transform: translatey(0px);
 	}
 	50% {
 		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+@keyframes float7 {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-30px);
 	}
 	100% {
 		transform: translatey(0px);
