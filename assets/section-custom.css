@@ -153,7 +153,7 @@ transform: translatey(0px);
 .d-column:first-of-type .d-product-wrap a {
 	animation: float 6s ease-in-out infinite;
 }
-.d-column:last-of-type .d-product-wrap a {
+.d-column:last-of-type .d-product-item:first-of-type .d-product-wrap a {
 	animation: float7 7s ease-in infinite;
 }
 .d-column:last-of-type .d-product-item:last-of-type .d-product-wrap a {
