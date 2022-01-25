@@ -110,7 +110,7 @@
         {% if template.suffix == 'about' %}
         	style="background: url({{'about_bg.png' | asset_img_url: 'master' }}) no-repeat; background-size:cover;"
         {% endif %}
-        {% if template.suffix == 'menu' %}
+        {% if template.suffix == 'menu' or template = 'collection' %}
         	style="background: url({{'menu_bg.png' | asset_img_url: 'master' }}) no-repeat; background-size:cover;"
         {% endif %}
         >
