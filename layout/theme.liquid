@@ -106,8 +106,7 @@
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   </head>
-{% assign about_bg = "style='background: url("{{asset_img_url | 'grande' }}") no-repeat; background-size:cover;"%}
-  <body {{about_bg}}>
+  <body style="background: url({{'about_bg.png' | asset_img_url }}) no-repeat; background-size:cover;">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
