@@ -255,7 +255,8 @@ body,
   background-color: rgb(var(--color-background));
 }
 body {
- background: url(https://cdn.shopify.com/s/files/1/0553/1480/9007/t/4/assets/body_whole_bg.png?v=1638972925) repeat;
+ background: url(body_whole_bg.png) no-repeat;
+  background-size:cover;
 }
 .background-secondary {
   background-color: rgba(var(--color-foreground), 0.04);
