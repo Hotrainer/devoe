@@ -52,6 +52,12 @@
  .footer__content-top .grid--4-col-tablet .grid__item {
     width: 100%; 
 }
+  .footer__content-top .footer-block:first-child {
+   text-align:right; 
+  }
+  .footer__content-top .footer-block:last-child {
+   text-align:left; 
+  }
 }
 
 .footer__content-bottom {
