@@ -106,6 +106,9 @@ color: #B71ABA;
  }
 }
 @media(max-width:767px) {
+  .newsletter h2 {
+  font-size:5.4rem; 
+ }
   .newsletter-form__field-wrapper .field {
 	flex-direction:column;
   }
