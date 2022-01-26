@@ -109,4 +109,8 @@ color: #B71ABA;
   .newsletter-form__field-wrapper .field {
 	flex-direction:column;
   }
+  .newsletter .field__button {
+    width:100%;
+    margin-top:1.5rem;
+  }
 }
