@@ -14,6 +14,9 @@
 .d-grid-2 {
  grid-template-columns:1fr 1fr; 
 }
+.d-grid-3 {
+ grid-template-columns:1fr 1fr 1fr; 
+}
 .d-grid-top.d-grid-2 {
   grid-template-columns:inherit; 
   padding-bottom:120px;
