@@ -153,13 +153,13 @@ color:#E95454;
 .d-product-wrap a {
 transform: translatey(0px);
 }
-.d-grid-2 .d-column:first-of-type .d-product-wrap a {
+.d-grid-3 .d-column:first-of-type .d-product-wrap a {
 	animation: float 6s ease-in-out infinite;
 }
-.d-grid-2 .d-column:last-of-type .d-grid-2 .d-column:first-of-type .d-product-wrap a {
+.d-grid-3 .d-column:nth-child(2) .d-product-wrap a {
 	animation: float5 5s ease-in infinite;
 }
-.d-grid-2 .d-column:last-of-type .d-grid-2 .d-column:last-of-type .d-product-wrap a {
+.d-grid-3 .d-column:last-of-type .d-product-wrap a {
   animation: float7 7s ease-out infinite;
 }
 @keyframes float {
