@@ -106,7 +106,7 @@ color: #B71ABA;
  }
 }
 @media(max-width:767px) {
-  .newsletter-form__field-wrapper .field__input {
+  .newsletter-form__field-wrapper .field {
 	flex-direction:column;
   }
 }
