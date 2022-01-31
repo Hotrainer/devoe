@@ -432,6 +432,6 @@ grid-auto-flow: column;
   }
   .d-grid-3 {
    grid-template-columns: 1fr; 
-    grid-gap: 0 0 50px;
+    grid-gap: 50px;
   }
 }
