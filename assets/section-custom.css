@@ -430,4 +430,7 @@ grid-auto-flow: column;
   .d-container-middle .d-block-row .d-column {
    width:100%; 
   }
+  .d-grid-3 {
+   grid-template-columns: 1fr; 
+  }
 }
