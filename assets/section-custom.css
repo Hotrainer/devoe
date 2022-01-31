@@ -434,4 +434,17 @@ grid-auto-flow: column;
    grid-template-columns: 1fr; 
     grid-gap: 50px;
   }
+  .active.fade-right {
+  animation: fade-right-mobile 2s ease-out;
+}
+  @keyframes fade-right-mobile {
+  0% {
+    transform: translate(700px, 0);
+    opacity: 0;
+  }
+  100% {
+        transform: translate(0, 0);
+    opacity: 1;
+  }
+}
 }
