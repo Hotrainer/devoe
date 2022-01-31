@@ -392,6 +392,7 @@ grid-auto-flow: column;
   }
   .d-left-moved img.d-left-gif {
     margin:0 auto;
+    width:100%;
 }
   .d-left-moved img:first-of-type {
      margin:0 auto 50px;
