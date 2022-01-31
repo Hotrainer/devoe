@@ -2321,5 +2321,8 @@ color: #0D131F;
     .d-page-contact-link, .d-page-instagram-link {
      font-size:2rem; 
     }
+    body {
+     background-repeat:repeat!important; 
+    }
   }
   
