@@ -219,13 +219,13 @@
       "image-banner-about": {
         "type": "image-banner-about",
         "settings": {
-          "image": "shopify:\/\/shop_images\/about_hero.jpg",
+          "image": "shopify:\/\/shop_images\/HBV01538_0b27e40f-d741-4f2a-bf77-f09224502985.jpg",
           "desktop_text_box_position": "center",
           "color_scheme": "background-1",
           "stack_images_on_mobile": false,
           "adapt_height_first_image": false,
-          "height309": false,
-          "height550": true
+          "height309": true,
+          "height550": false
         }
       }
     },
