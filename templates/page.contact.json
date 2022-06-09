@@ -1,7 +1,10 @@
 {
   "sections": {
     "main": {
-      "type": "main-page"
+      "type": "main-page",
+      "settings": {
+        "text": "Wholesale Inquiry"
+      }
     },
     "form": {
       "type": "contact-form",
