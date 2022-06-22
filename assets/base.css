@@ -2311,6 +2311,9 @@ color: #0D131F;
   color: #E75558;
   text-decoration:none;
 }
+  body {
+     background-repeat:repeat!important; 
+    }
   @media(max-width:979px) {
    .d-header-btn {
     display:none; 
@@ -2321,8 +2324,6 @@ color: #0D131F;
     .d-page-contact-link, .d-page-instagram-link {
      font-size:2rem; 
     }
-    body {
-     background-repeat:repeat!important; 
-    }
+    
   }
   
