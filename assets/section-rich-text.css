@@ -81,6 +81,8 @@ font-size: 45px;
 line-height: 1.98;
 color: #E95454;
   text-align:center;
+  padding-left:15px;
+  padding-right:15px;
 }
 .d-about-text p {
     font-family: 'name_sans_textregular';
@@ -89,6 +91,8 @@ font-size: 24px;
 line-height: 1.92;
 color: #0D131F;
   text-align:center;
+   padding-left:15px;
+  padding-right:15px;
 }
 .d-about-text p em {
     font-family: 'master_worksregular';
@@ -96,6 +100,8 @@ font-weight: normal;
 font-size: 46px;
 line-height: 1.1;
 color: #0D131F;
+   padding-left:15px;
+  padding-right:15px;
 }
 .d-about-right-align p {
   text-align:right;
