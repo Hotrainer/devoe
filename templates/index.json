@@ -35,6 +35,7 @@
     },
     "1638978613f81c8c50": {
       "type": "custom-product-grid",
+      "disabled": true,
       "settings": {
         "product": "salted-chocolate-chip-cookies",
         "product_2": "brooklyn-brookie-bars",
