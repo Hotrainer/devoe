@@ -48,9 +48,9 @@ color: #0D131F;
 }
 @media(max-width:767px) {
  .page-menu h3 {
-  font-size:6rem; 
+  font-size:4rem; 
  }
   .page-menu p {
-  font-size:2rem; 
+  font-size:1.4rem; 
  }
 }
