@@ -2327,5 +2327,5 @@ color: #0D131F;
     
   }
   .custom-top {
-    background:url{{'image_1_3_1.jpg' | file_url}};
+    background:url({{'image_1_3_1.jpg' | file_url}});
   }
