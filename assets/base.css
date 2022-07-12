@@ -2338,3 +2338,6 @@ color: #0D131F;
     display:grid;
     grid-template-columns:1fr 1fr;
   }
+  .d-container-middle .d-block-row .d-column {
+    width:100%;
+  }
