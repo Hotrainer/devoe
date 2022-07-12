@@ -2337,6 +2337,7 @@ color: #0D131F;
   .d-container-middle .d-block-row {
     display:grid;
     grid-template-columns:1fr 1fr;
+    padding-top:50px;
   }
   @media(max-width:979px) {
   .d-container-middle .d-block-row {
