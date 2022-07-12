@@ -2334,3 +2334,7 @@ color: #0D131F;
     background:url(https://cdn.shopify.com/s/files/1/0553/1480/9007/files/image_2_2_1.jpg?v=1657633897);
     background-size:cover;
   }
+  .d-container-middle .d-block-row {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+  }
