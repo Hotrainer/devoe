@@ -2347,3 +2347,6 @@ color: #0D131F;
   .d-container-middle .d-block-row .d-column {
     width:100%;
   }
+  .header__icon--cart {
+    display:none!important;
+  }
