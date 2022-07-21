@@ -117,7 +117,13 @@
           "cbf5b655-19e7-4618-b879-c2d9520616cb": {
             "type": "menu",
             "settings": {
-              "menu_content": "<h3>Loaves<\/h3>\n<p>Banana Bread <\/p>\n<p>Iced Lemon Loaf<\/p>"
+              "menu_content": "<h3>Loaves<\/h3>\n<div class=\"menu-item\">\n<p class=\"menu-item-title\">Banana Bread<\/p>\n<p class=\"menu-item-description\">A classic homemade-style banana bread, made without nuts!<\/p>\n<\/div>\n<div class=\"menu-item\">\n<p class=\"menu-item-title\">Iced Lemon Loaf<\/p>\n<p class=\"menu-item-description\">A soft and sweet lemon cake, made with fresh lemon zest and topped with a thick lemon glaze.<\/p>\n<\/div>"
+            }
+          },
+          "13172cf6-b1eb-46dd-94be-b5ca67af8a36": {
+            "type": "menu",
+            "settings": {
+              "menu_content": "<h3>Other Treats<\/h3>\n<div class=\"menu-item\">\n<p class=\"menu-item-title\">Cinnamon Rolls<\/p>\n<p class=\"menu-item-description\">A soft vanilla dough swirled with a rich cinnamon filling and smothered in sweet cream cheese frosting. Only available at Devoe<\/p>\n<\/div>\n<div class=\"menu-item\">\n<p class=\"menu-item-title\">Edible Cookie Dough<\/p>\n<div class=\"menu-item\">\n<p class=\"menu-item-title\">Cinnamon Sugar Doughnuts<\/p>\n<\/div>\n<\/div>"
             }
           }
         },
@@ -127,7 +133,8 @@
           "a4c0aa61-4588-44a3-b5d2-3558751ac10d",
           "5bc97e50-a4e4-48da-94fe-46d0215692fe",
           "d296c621-c9b6-4a21-8142-38ac94ed99c0",
-          "cbf5b655-19e7-4618-b879-c2d9520616cb"
+          "cbf5b655-19e7-4618-b879-c2d9520616cb",
+          "13172cf6-b1eb-46dd-94be-b5ca67af8a36"
         ],
         "settings": {
         }
