@@ -31,7 +31,7 @@ text-align:center;
 color: #E75558;
   margin-bottom:2.5rem;
 }
-.page-menu p.menu-item-title {
+.page-menu p.menu-item-title, .page-menu p {
 font-family: 'name_sans_headingblack';
 font-style: italic;
 font-weight: 900;
