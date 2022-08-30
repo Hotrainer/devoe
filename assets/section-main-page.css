@@ -66,4 +66,7 @@ color: #0D131F;
   .page-menu p {
   font-size:1.4rem; 
  }
+  .page-menu p.menu-item-title {
+    font-size:2.1rem;
+  }
 }
