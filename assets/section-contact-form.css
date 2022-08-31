@@ -24,6 +24,10 @@
   margin-top: 3rem;
 }
 
+.contact__button button {
+  border-radius:10px;
+  text-transform:uppercase;
+}
 @media screen and (min-width: 750px) {
   .contact__button {
     margin-top: 4rem;
