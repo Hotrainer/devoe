@@ -77,7 +77,7 @@ font-size: 1.6rem;
 line-height: 1.1;
 color: #FFFFFF;
 opacity: 0.8;
-  padding:0 1rem;
+  padding:0 1rem 0 0.5rem;
 }
 .newsletter .field__label {
     color:#fff;
