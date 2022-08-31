@@ -74,7 +74,7 @@ border-radius: 10px;
     font-family: 'name_sans_textregular';
 font-weight: normal;
 font-size: 1.6rem;
-line-height: 4.5rem;
+line-height: 1.1;
 color: #FFFFFF;
 opacity: 0.8;
   padding:0 1rem;
@@ -84,9 +84,10 @@ opacity: 0.8;
     font-family: 'name_sans_textregular';
 font-weight: normal;
 font-size: 1.6rem;
-line-height: 1.1;
+line-height: 3.9rem;
 color: #FFFFFF;
 opacity: 0.8;
+  padding:0;
 }
 .newsletter .field__button {
  position:static; 
