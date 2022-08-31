@@ -88,7 +88,12 @@ line-height: 3.9rem;
 color: #FFFFFF;
 opacity: 0.8;
   padding:0;
+  top:0;
 }
+.newsletter-form__field-wrapper .field__input:focus ~ .field__label {
+    line-height:1.1;
+}
+.newsletter .field__label
 .newsletter .field__button {
  position:static; 
   background: #FFFFFF;
