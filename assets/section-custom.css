@@ -133,6 +133,9 @@ color: #0D131F;
 .d-big-text p span{
 color:#E95454;
 }
+.d-left-moved {
+  padding-bottom:200px;
+}
 .d-left-moved img:first-of-type {
   margin-left:10%;
 }
